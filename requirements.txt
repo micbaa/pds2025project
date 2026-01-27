@@ -1,0 +1,11 @@
+numpy
+pandas
+scikit-learn
+transformers
+datasets
+accelerate
+evaluate
+torch
+sentence-transformers
+lets-plot
+scipy

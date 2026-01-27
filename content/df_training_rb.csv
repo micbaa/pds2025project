@@ -1,0 +1,339 @@
+person_id,job_no,organization,linkedin,position,startDate,endDate,status,department,seniority,position_norm
+2,8,Austrian Parliament,https://www.linkedin.com/company/austrian-parliament,PR & Communication Consultant,2020-05,2021-01,INACTIVE,Marketing,Senior,pr communication consultant
+2,12,DO & CO AG,https://www.linkedin.com/company/do&co,International Event Operations Manager,2022-11,2024-05,INACTIVE,Other,Senior,international event operations manager
+4,1,Advicing,,Consultant,,,UNKNOWN,Consulting,Senior,consultant
+5,1,AXEED Informatik AG,,Marketing Manager,1995-11,1998-02,INACTIVE,Marketing,Senior,marketing manager
+5,2,Xerox,https://www.linkedin.com/company/xerox,Business-Manager,1998-03,2000-10,INACTIVE,Business Development,Senior,business manager
+5,3,20 Minuten,https://www.linkedin.com/company/20minuten,Business Development Manager,2000-11,2001-01,INACTIVE,Business Development,Senior,business development manager
+5,4,The DocuCollege Ltd.,,Marketing Manager,2001-03,2002-12,INACTIVE,Marketing,Senior,marketing manager
+5,7,Smartec Services AG,https://www.linkedin.com/company/smartec-services-ag,Marketing Manager,2019-01,2020-06,INACTIVE,Marketing,Senior,marketing manager
+5,8,Tradeware AG,https://www.linkedin.com/company/tradeware-ag,Marketing Manager,2020-07,,ACTIVE,Marketing,Senior,marketing manager
+7,3,Siemens VDO Automotive AG,,Advanced Purchasing Engineer,2000-12,2004-04,INACTIVE,Purchasing,Senior,advanced purchasing engineer
+9,1,ALSO Deutschland GmbH,https://www.linkedin.com/company/alsogroup,Business Analyst,1992-06,,ACTIVE,Business Development,Junior,business analyst
+11,3,Verband der Angestellten- Krankenkassen,https://www.linkedin.com/company/verband-der-angestellten--krankenkassen,"Projektleiter, Teamleiter",1993-06,1999-06,INACTIVE,Project Management,Lead,projektleiter teamleiter
+11,4,VSA GmbH,https://www.linkedin.com/company/vsa-gmbh,Abteilungsleiter IT-Produktion und Systemtechnik,1999-07,2005-12,INACTIVE,Information Technology,Lead,abteilungsleiter it produktion und systemtechnik
+11,5,VSA GmbH,https://www.linkedin.com/company/vsa-gmbh,Fachbereichsleiter IT-Services,2006-01,2008-06,INACTIVE,Information Technology,Lead,fachbereichsleiter it services
+11,6,VSA GmbH,https://www.linkedin.com/company/vsa-gmbh,IT-Bereichsleiter,2008-07,2015-11,INACTIVE,Information Technology,Lead,it bereichsleiter
+15,2,"DIK, Deutsches Institut für Kapitalanlagen",,Assistent to Managing Director,1984,1985,INACTIVE,Administrative,Director,assistent to managing director
+18,2,Aglukon Spezialdünger GmbH & Co. KG,https://www.linkedin.com/company/aglukon,Trainee Quality Management / Communication Management,2022-06,2023-06,INACTIVE,Marketing,Senior,trainee quality management communication management
+19,1,Qingdao German Service Center,,Project assistant intern,2012-01,2012-07,INACTIVE,Project Management,Senior,project assistant intern
+19,2,Struktur Management Partner,,Consultant,2012-09,2014-04,INACTIVE,Consulting,Senior,consultant
+19,3,Struktur Management Partner GmbH,https://www.linkedin.com/company/struktur-management-partner-gmbh,Senior Consultant,2014-04,2015-07,INACTIVE,Consulting,Senior,senior consultant
+19,4,Superdry Container Desiccant,,Interim Sales Manager,2015-08,2015-12,INACTIVE,Sales,Senior,interim sales manager
+19,5,Volkswagen Group China,https://www.linkedin.com/company/volkswagen-group-china,Project Manager - Volkswagen Consulting,2016-01,2020-12,INACTIVE,Project Management,Senior,project manager volkswagen consulting
+19,6,Volkswagen Group China,https://www.linkedin.com/company/volkswagen-group-china,Head of Automotive Strategy & New Business - Group Finance,2020-12,2022-06,INACTIVE,Business Development,Lead,head of automotive strategy new business group finance
+20,8,STADA,https://www.linkedin.com/company/stada,Assistentin im Bereich Gesundheitspolitik und GF Assistenz,2003-11,2005-01,INACTIVE,Administrative,Junior,assistentin im bereich gesundheitspolitik und gf assistenz
+22,2,SE Scherbeck Energy GmbH,https://www.linkedin.com/company/scherbeck-energy,Senior Consultant,2016-08,2018-01,INACTIVE,Consulting,Senior,senior consultant
+22,3,r2b energy consulting GmbH,https://www.linkedin.com/company/r2b-energy-consulting,Senior Berater,2018-02,2020-03,INACTIVE,Consulting,Senior,senior berater
+23,4,Owens Corning,https://www.linkedin.com/company/owens-corning,"Global Product Management & Marketing Director, Glass Reinforcements",2020,2023,INACTIVE,Marketing,Senior,global product management marketing director glass reinforcements
+23,6,Owens Corning,https://www.linkedin.com/company/owens-corning,"Global Marketing Director, Nonwovens",2024-11,,ACTIVE,Marketing,Director,global marketing director nonwovens
+24,3,"Goethe-Universität Frankfurt, Institut für Allgemeinmedizin",,Projektleitung: Prozessevaluation eines innovativen Versorgungsmodells,2020-03,2022-06,INACTIVE,Project Management,Lead,projektleitung prozessevaluation eines innovativen versorgungsmodells
+26,1,SCA Hygiene Products,https://www.linkedin.com/company/sca-company,"Production Manager, Product Manager, Project Manager",1993-01,2001-11,INACTIVE,Project Management,Senior,production manager product manager project manager
+26,2,KFC Konrad Carbide GmbH / Konrad Friedrichs KG,,Vice President Sales / Senior Manager Quality and R&D,2001-12,2007-06,INACTIVE,Sales,Management,vice president sales senior manager quality and r d
+28,3,Kapsch AG,https://www.linkedin.com/company/kapsch-ag,Project Manager,2008-07,2012-06,INACTIVE,Project Management,Senior,project manager
+28,5,binary Professional IT Solution GmbH,,Senior Consultant,2014-06,2016-03,INACTIVE,Consulting,Senior,senior consultant
+28,6,metafinanz Informationssysteme GmbH,https://www.linkedin.com/company/metafinanz,Senior Project Manager,2016-05,2016-10,INACTIVE,Project Management,Senior,senior project manager
+28,7,deliverIT,,Management Consultant,2016-11,2018-01,INACTIVE,Consulting,Senior,management consultant
+28,8,SOFTCOM CONSULTING GmbH,https://www.linkedin.com/company/softcom-consulting-gmbh,"Management Consultant, Senior Project Manager",2018-02,2022-12,INACTIVE,Project Management,Senior,management consultant senior project manager
+28,9,Selbstständig,,Senior Project Manager,2022-04,,ACTIVE,Project Management,Senior,senior project manager
+29,1,2 different companies,,Federal IT Account Manager,1992-07,2005-08,INACTIVE,Sales,Senior,federal it account manager
+29,6,FCN Inc.,https://www.linkedin.com/company/fcn,Federal Account Manager,2017-12,,ACTIVE,Sales,Senior,federal account manager
+36,5,Daimler AG,https://www.linkedin.com/company/mercedes-benz_ag,Project Manager Development Exterior Parts MB Cars,2014-06,2017-12,INACTIVE,Project Management,Senior,project manager development exterior parts mb cars
+36,11,CONCEPT A.Ş.,,Senior Consultant,2020-04,2022-04,INACTIVE,Consulting,Senior,senior consultant
+37,2,York refrigeration,https://www.linkedin.com/company/johnson-controls,Project Engineer,2002-01,2002-05,INACTIVE,Project Management,Senior,project engineer
+37,8,Storm - House of Six Sigma,https://www.linkedin.com/company/houseofsixsigma,Senior Consultant,2014-11,2017-08,INACTIVE,Consulting,Senior,senior consultant
+38,1,Tandartspraktijk Aldente,,Senior Tandarts assistent,1994-08,2021-04,INACTIVE,Administrative,Junior,senior tandarts assistent
+38,2,Tandartspraktijk H. van Huizen,,Senior Tandarts assistent,2021-04,2021-11,INACTIVE,Administrative,Junior,senior tandarts assistent
+38,3,Tandartspraktijk Hollandscheveld,https://www.linkedin.com/company/tandartspraktijk-hollandscheveld,senior tandarts assistent,2021-11,2022-05,INACTIVE,Administrative,Junior,senior tandarts assistent
+38,4,Orthocenter,https://www.linkedin.com/company/orthocenter,Orthodontie assistent,2022-05,,ACTIVE,Administrative,Junior,orthodontie assistent
+38,5,Orthocenter,https://www.linkedin.com/company/orthocenter,Leerling orthodontie assistent,2022-05,,ACTIVE,Administrative,Junior,leerling orthodontie assistent
+40,1,Rotheneder Gesm.B.H,,Jr. Consultant PrePress,1999-10,2004-10,INACTIVE,Consulting,Senior,jr consultant prepress
+41,4,Montgomery County,,IT Program Manager – Information Security,2016-09,,ACTIVE,Information Technology,Senior,it program manager information security
+42,1,Landesbank Hessen Thüringen,https://www.linkedin.com/company/landesbank-hessen-thüringen,IT Consultant,1992,1995,INACTIVE,Consulting,Senior,it consultant
+42,2,SV SparkassenVersicherung,https://www.linkedin.com/company/sv-sparkassenversicherung,IT Consultant,1996,1997,INACTIVE,Consulting,Senior,it consultant
+42,3,ZDF,https://www.linkedin.com/company/zdf,IT Consultant,1997,1997,INACTIVE,Consulting,Senior,it consultant
+42,4,Landesbank Hessen Thüringen,https://www.linkedin.com/company/landesbank-hessen-thüringen,IT Consultant,1998,2001,INACTIVE,Consulting,Senior,it consultant
+42,5,Landesbausparkasse Hessen-Thüringen,,IT Consultant,2001,2002,INACTIVE,Consulting,Senior,it consultant
+42,6,TxB Transaktionsbank GmbH,https://www.linkedin.com/company/txb-transaktionsbank-gmbh,IT Consultant,2002,2006,INACTIVE,Consulting,Senior,it consultant
+42,7,Landesbank Hessen Thüringen,https://www.linkedin.com/company/landesbank-hessen-thüringen,IT Consultant,2006,2007,INACTIVE,Consulting,Senior,it consultant
+42,8,ITS Wertpapiere,,IT Consultant,2008,2008,INACTIVE,Consulting,Senior,it consultant
+42,9,HSBC Commercial Banking,https://www.linkedin.com/company/hsbc,IT Consultant,2009,2009,INACTIVE,Consulting,Senior,it consultant
+42,10,Sparda-Datenverarbeitung eG,https://www.linkedin.com/company/sparda-datenverarbeitung-eg,IT Consultant,2010,2011,INACTIVE,Consulting,Senior,it consultant
+42,11,SEB,https://www.linkedin.com/company/seb,IT Consultant,2010,2010,INACTIVE,Consulting,Senior,it consultant
+42,12,DWS Group,https://www.linkedin.com/company/dwsgroup,IT Consultant,2012,2014,INACTIVE,Consulting,Senior,it consultant
+42,13,Finanz Informatik GmbH & Co. KG,https://www.linkedin.com/company/finanz-informatik,IT Consultant,2014,2016,INACTIVE,Consulting,Senior,it consultant
+42,14,LBBW Landesbank Baden-Württemberg,https://www.linkedin.com/company/lbbw,IT Consultant,2016,2017,INACTIVE,Consulting,Senior,it consultant
+42,15,SOKA-BAU,https://www.linkedin.com/company/soka-bau,IT Consultant,2017,2018,INACTIVE,Consulting,Senior,it consultant
+42,16,Finanz Informatik GmbH & Co. KG,https://www.linkedin.com/company/finanz-informatik,IT-Consultant,2019,2020,INACTIVE,Consulting,Senior,it consultant
+42,17,Deutsche Vermögensberatung,https://www.linkedin.com/company/dvag,IT-Consultant,2020,2020,INACTIVE,Consulting,Senior,it consultant
+45,3,Miles & More GmbH / Lufthansa Group,,Project Manager Airport & Airline Shopping,2015-08,2018-12,INACTIVE,Project Management,Senior,project manager airport airline shopping
+45,5,Lufthansa Systems,https://www.linkedin.com/company/lufthansa-systems,Airline Consultant,2019-11,2021-12,INACTIVE,Consulting,Senior,airline consultant
+45,6,Lufthansa Group,https://www.linkedin.com/company/lufthansa-group,Head of Payment IT Solutions,2022-01,,ACTIVE,Information Technology,Lead,head of payment it solutions
+46,2,PwC,https://www.linkedin.com/company/pwc,Strategy and Operations Corporate Consultant,2012-04,2012-10,INACTIVE,Consulting,Senior,strategy and operations corporate consultant
+52,3,Building Inspectors SA Pty Ltd,,Building Consultant,2009-07,,ACTIVE,Consulting,Senior,building consultant
+58,5,Coopers & Lybrand Consulting,https://www.linkedin.com/company/coopers-&-lybrand-consulting,Consultant,1997-01,1998-09,INACTIVE,Consulting,Senior,consultant
+58,6,PricewaterhouseCoopers,https://www.linkedin.com/company/pwc-acceleration-centers,Principle Consultant,1998-10,2002-10,INACTIVE,Consulting,Senior,principle consultant
+58,7,IBM,https://www.linkedin.com/company/ibm,Managing Consultant,2002-10,2008-01,INACTIVE,Consulting,Senior,managing consultant
+58,8,Lodestone Management Consultants,https://www.linkedin.com/company/lodestone-management-consultants,Managing Consultant,2009-02,2013-06,INACTIVE,Consulting,Senior,managing consultant
+58,9,Detecon International,https://www.linkedin.com/company/detecon,Managing Consultant,2013-07,2022-07,INACTIVE,Consulting,Senior,managing consultant
+64,3,ChinaSoft International,https://www.linkedin.com/company/chinasoft-international,Internet Project Manager,2016-10,2017-03,INACTIVE,Project Management,Senior,internet project manager
+70,3,Bloomberg LP,https://www.linkedin.com/company/bloomberg,Sales Account Manager,2001,2004,INACTIVE,Sales,Senior,sales account manager
+70,4,RTS Realtime Systems,https://www.linkedin.com/company/rts-realtime-systems,Sales Account Manager,2005,2007,INACTIVE,Sales,Senior,sales account manager
+70,6,Eggplant,,Business Manager DACH,2015-02,2021-02,INACTIVE,Business Development,Senior,business manager dach
+71,2,Rail Construction Equipment Co.,,Sales Manager,1991-01,,ACTIVE,Sales,Senior,sales manager
+72,2,Speakers Academy®,https://www.linkedin.com/company/speakers-academy,Consultant (Student Work),2015-02,2016-02,INACTIVE,Consulting,Senior,consultant student work
+72,7,Kalmar,https://www.linkedin.com/company/kalmar,Manager Third Party Sales,2020-09,2021-07,INACTIVE,Sales,Senior,manager third party sales
+72,9,Kalmar,https://www.linkedin.com/company/kalmar,"Director, Digital Services Business",2025-02,,ACTIVE,Information Technology,Director,director digital services business
+75,4,Excelitas Technologies,https://www.linkedin.com/company/excelitas-technologies,Project Engineer,2013-03,2014-06,INACTIVE,Project Management,Senior,project engineer
+75,7,ams OSRAM,https://www.linkedin.com/company/osram,Marketing Engineer,2020-04,,ACTIVE,Marketing,Senior,marketing engineer
+82,6,TDC NET,https://www.linkedin.com/company/tdcnet,Strategy Consultant,2021-06,2022-07,INACTIVE,Consulting,Senior,strategy consultant
+82,7,TDC NET,https://www.linkedin.com/company/tdcnet,Senior Strategy Consultant,2022-07,2024-01,INACTIVE,Consulting,Senior,senior strategy consultant
+83,2,Insightful Corporation,https://www.linkedin.com/company/insightful-corporation,Statistical Consultant,2005-05,2007-09,INACTIVE,Consulting,Senior,statistical consultant
+83,3,Insightful Corporation,https://www.linkedin.com/company/insightful-corporation,"Senior IT Consultant, European Technical Lead",2007-10,2008-09,INACTIVE,Consulting,Senior,senior it consultant european technical lead
+83,4,TIBCO Software,https://www.linkedin.com/company/tibco,Senior IT Consultant,2008-09,2009-03,INACTIVE,Consulting,Senior,senior it consultant
+86,5,Salmax oHG,,Head Of Sales,2015-10,2017-10,INACTIVE,Sales,Lead,head of sales
+88,4,Imtech Infra Turkey,https://www.linkedin.com/company/imtech-n-v,Manager Operations,2009-10,2015-01,INACTIVE,Other,Senior,manager operations
+88,5,ESC Engineering Ltd.,,Business Development Manager,2015-01,2015-12,INACTIVE,Business Development,Senior,business development manager
+89,2,empirica GmbH,,Senior Consultant,1997-04,1998-10,INACTIVE,Consulting,Senior,senior consultant
+89,3,IHK Berlin,,Director IT/Media-Industry,1998-11,2002-10,INACTIVE,Information Technology,Director,director it media industry
+92,5,[planwerk],,Junior Consultant,2007-04,2007-08,INACTIVE,Consulting,Junior,junior consultant
+94,1,Verint Systems,,"Director, Marketing Communications",,,UNKNOWN,Marketing,Director,director marketing communications
+95,5,Subdirect,https://www.linkedin.com/company/subdirect,Vice President Business Intelligence,2015-02,2019-03,INACTIVE,Business Development,Management,vice president business intelligence
+96,1,Ernst & Young,https://www.linkedin.com/company/1ernst-young,Junior-Consultant,2007-09,2009-01,INACTIVE,Consulting,Junior,junior consultant
+98,2,Electro World s.r.o.,https://www.linkedin.com/company/electro-world,Senior Sales Advisor,2004-08,2016-12,INACTIVE,Sales,Senior,senior sales advisor
+105,7,Niscayah,https://www.linkedin.com/company/niscayah,Account Manager,2012-01,2012-09,INACTIVE,Sales,Senior,account manager
+105,8,STANLEY Security Sverige AB,https://www.linkedin.com/company/stanley-security-sverige-ab,Account Manager,2012-09,2019-05,INACTIVE,Sales,Senior,account manager
+105,9,Konica Minolta Business Solutions Sweden AB,,Regional Key Account Manager,2019-05,2021-01,INACTIVE,Sales,Senior,regional key account manager
+107,1,celum GmbH,https://www.linkedin.com/company/celum,Project Consultant,2011-05,2011-09,INACTIVE,Consulting,Senior,project consultant
+107,2,NTS Retail,https://www.linkedin.com/company/nts-retail,Project Manager & Business Consultant,2011-10,2015-08,INACTIVE,Business Development,Senior,project manager business consultant
+113,3,Photron Deutschland GmbH,,Sales Manager,2017-01,,ACTIVE,Sales,Senior,sales manager
+114,3,Equinix,https://www.linkedin.com/company/equinix,"Financial Strategy and Transformation, Business Analyst",2023-05,2023-08,INACTIVE,Business Development,Junior,financial strategy and transformation business analyst
+114,6,Tyson Foods,https://www.linkedin.com/company/tyson-foods,"IT Beef & Pork, Technical Analyst",2024-05,2024-08,INACTIVE,Information Technology,Junior,it beef pork technical analyst
+116,4,Berlin-Chemie AG,https://www.linkedin.com/company/berlinchemie,Purchasing Manager,2018-01,2021-03,INACTIVE,Purchasing,Senior,purchasing manager
+119,5,Kanton Luzern,https://www.linkedin.com/company/kanton-luzern,Leiter Projektmanagement / Projektleiter,2023-01,,ACTIVE,Project Management,Lead,leiter projektmanagement projektleiter
+121,7,BFB Bildung Formation Biel-Bienne,,Lehrgangsleiter HR-Assistent*in & Referent SB Personalwesen,2024-08,,ACTIVE,Administrative,Junior,lehrgangsleiter hr assistent in referent sb personalwesen
+122,3,Content Executive,,Managing Consultant,2005-04,2011-08,INACTIVE,Consulting,Senior,managing consultant
+122,4,Olympia Uitzendbureau,https://www.linkedin.com/company/olympia-nederland,Managing Consultant Secretarieel,2011-08,2012-12,INACTIVE,Consulting,Senior,managing consultant secretarieel
+125,2,ICL Sorbus,,Business Manager Managed Services,1992-01,1998,INACTIVE,Business Development,Senior,business manager managed services
+125,4,StorageTek,,Manager Service Sales Germany,2002-04,2004-03,INACTIVE,Sales,Senior,manager service sales germany
+125,5,StorageTek,,Business Development Manager,2004-01,2004-12,INACTIVE,Business Development,Senior,business development manager
+126,1,Attend (formerly NAHCF),,Office Manager & Finance Administrator,2004-05,2006-04,INACTIVE,Information Technology,Senior,office manager finance administrator
+126,2,Australian Executor Trustees Limited,https://www.linkedin.com/company/australian-executor-trustees-limited,Account Manager,2006-05,2008-05,INACTIVE,Sales,Senior,account manager
+126,3,Kitchen Connection Australia,https://www.linkedin.com/company/kwb-group,State Purchasing & Quality Manager,2008-05,2010-03,INACTIVE,Purchasing,Senior,state purchasing quality manager
+126,7,Deliveroo,https://www.linkedin.com/company/deliveroo,Live Operations Consultant AUS,2016-06,2016-08,INACTIVE,Consulting,Senior,live operations consultant aus
+126,11,bp,https://www.linkedin.com/company/bp,Global Procurement & New Business Strategy Manager | Convenience Retail,2020-05,2022-05,INACTIVE,Business Development,Senior,global procurement new business strategy manager convenience retail
+127,1,Verschuren Techniek BV,,Assistant Project Manager - parttime,1985-04,1986-06,INACTIVE,Project Management,Senior,assistant project manager parttime
+127,4,Wang International Limited,,Business Analyst,1995-09,1998-06,INACTIVE,Business Development,Junior,business analyst
+127,6,The Shell Petroleum Development Company of Nigeria Limited,https://www.linkedin.com/company/shell,Project Consultant,1998-07,2002-01,INACTIVE,Consulting,Senior,project consultant
+127,7,Nigeria LNG Limited,,Project Manager I&C,2000,2001,INACTIVE,Project Management,Senior,project manager i c
+127,8,The Shell Petroleum Development Company of Nigeria Limited,https://www.linkedin.com/company/shell,Work Management Consultant,2002-01,2005-09,INACTIVE,Consulting,Senior,work management consultant
+127,10,The Shell Petroleum Development Company of Nigeria Limited,https://www.linkedin.com/company/shell,Regional Project Manager,2007-07,2011-03,INACTIVE,Project Management,Senior,regional project manager
+127,11,The Shell Petroleum Development Company of Nigeria Limited,https://www.linkedin.com/company/shell,Construction Project Manager,2011-01,2013-01,INACTIVE,Project Management,Senior,construction project manager
+127,14,SHELL INFORMATION TECHNOLOGY INTERNATIONAL LIMITED,,Senior Project Manager Upstream,2017-01,2020-06,INACTIVE,Project Management,Senior,senior project manager upstream
+128,1,Sara Lee Bakery / Hillshire Farms / Tyson,,Zone Manager - Sales East,1990-01,1996-05,INACTIVE,Sales,Senior,zone manager sales east
+128,2,Land 'O Lakes,,Director of Sales - Northern USA,1996-05,2000-05,INACTIVE,Sales,Director,director of sales northern usa
+128,5,Foster Farms,https://www.linkedin.com/company/foster-farms,Vice President of Sales Foodservice,2008-01,2012-12,INACTIVE,Sales,Management,vice president of sales foodservice
+128,7,Paradise Tomato Kitchens - Signature Sauce. Signature Service,https://www.linkedin.com/company/paradise-tomato-kitchens-inc.,"Director of Sales, Marketing and R&D",2013,2013-01,INACTIVE,Marketing,Director,director of sales marketing and r d
+128,8,Paradise Tomato Kitchens,,"Director of Sales, Marketing and Customer Experience",2013-01,2013,INACTIVE,Marketing,Director,director of sales marketing and customer experience
+130,1,Selbstständig,https://www.linkedin.com/company/selbstst-ndig_11,Projektleiter / Mediengestalter / Kameramann,2004-07,2008-06,INACTIVE,Project Management,Lead,projektleiter mediengestalter kameramann
+131,7,GL Group,https://www.linkedin.com/company/gl-group,VP / Regional Manager - Operations Northern Europe & UK,2012-04,2012-12,INACTIVE,Other,Senior,vp regional manager operations northern europe uk
+131,8,GL Group,https://www.linkedin.com/company/gl-group,VP / Regional Manager Sales - Northern & Eastern Europe,2013-01,2013-08,INACTIVE,Sales,Senior,vp regional manager sales northern eastern europe
+131,9,DNV,https://www.linkedin.com/company/dnv,"VP / Business Development & Member of Management - Denmark, Sweden, Poland",2013-09,2016-02,INACTIVE,Business Development,Management,vp business development member of management denmark sweden poland
+131,10,DNV,https://www.linkedin.com/company/dnv,SVP / Business Development Director & Member of Management North America,2016-03,2018-05,INACTIVE,Business Development,Director,svp business development director member of management north america
+133,1,Haldor Topsoe A/S,https://www.linkedin.com/company/topsoe,Sales Marketing Manager,1999-02,2003-12,INACTIVE,Marketing,Senior,sales marketing manager
+133,3,Haldor Topsoe A/S,https://www.linkedin.com/company/topsoe,Sales Marketing Manager,2010-03,2012-11,INACTIVE,Marketing,Senior,sales marketing manager
+133,4,Dürr,https://www.linkedin.com/company/durrglobal,Senior Business Development Manager,2012-12,2018-01,INACTIVE,Business Development,Senior,senior business development manager
+135,1,Progressive Recruitment,https://www.linkedin.com/company/progressive-recruitment,Recruitment Consultant,2022-04,,ACTIVE,Consulting,Senior,recruitment consultant
+137,1,Agfa,https://www.linkedin.com/company/agfa,Marketing Assistant,1997-02,1999-11,INACTIVE,Marketing,Senior,marketing assistant
+137,2,C.A.R.L. creativ,,Communications Consultant,2000-02,2000-08,INACTIVE,Marketing,Senior,communications consultant
+137,4,Canon Austria GmbH,https://www.linkedin.com/company/canon-emea,Corporate Communications Manager,2003-05,2009-03,INACTIVE,Marketing,Senior,corporate communications manager
+137,5,Canon Austria & Canon CEE,,Corporate Communications Manager,2009-04,2012-06,INACTIVE,Marketing,Senior,corporate communications manager
+137,6,Canon Austria & Canon CEE,,Corporate & Marketing Communications Director,2012-07,2017-03,INACTIVE,Marketing,Director,corporate marketing communications director
+137,7,Canon Austria GmbH,https://www.linkedin.com/company/canon-emea,Corporate Communications & Marketing Services Senior Manager,2017-04,,ACTIVE,Marketing,Senior,corporate communications marketing services senior manager
+138,5,Scope International AG,https://www.linkedin.com/company/scope-international-ag,Project Manager Associate,2009-09,2011-03,INACTIVE,Project Management,Senior,project manager associate
+138,6,Scope International AG,https://www.linkedin.com/company/scope-international-ag,International Clinical Project Manager,2011-04,,ACTIVE,Project Management,Senior,international clinical project manager
+141,5,Bustec,https://www.linkedin.com/company/bustec,Director of Sales and Marketing,2025-01,,ACTIVE,Marketing,Director,director of sales and marketing
+142,2,Ryangolf Corporation,https://www.linkedin.com/company/ryangolf-corporation,Project Manager,2023-09,2024-09,INACTIVE,Project Management,Senior,project manager
+143,1,Whirlpool EMEA,https://www.linkedin.com/company/whirlpool-corporation,Marketing Assistant,2006-02,2008-09,INACTIVE,Marketing,Senior,marketing assistant
+143,2,Whirlpool EMEA,https://www.linkedin.com/company/whirlpool-corporation,Trade Marketing Manager,2008-09,2012-04,INACTIVE,Marketing,Senior,trade marketing manager
+143,3,Luxottica Group,https://www.linkedin.com/company/luxottica,Trade Marketing Manager,2012-04,,ACTIVE,Marketing,Senior,trade marketing manager
+145,3,Vodafone Group,https://www.linkedin.com/company/vodafone,Director Operations,2000-03,2002-08,INACTIVE,Other,Director,director operations
+145,4,Vodafone Group,https://www.linkedin.com/company/vodafone,Director of Product Marketing,2002-08,2004-12,INACTIVE,Marketing,Director,director of product marketing
+145,10,Artemis ITS,https://www.linkedin.com/company/artemis-its,SVP Sales & Accounts,2022-03,,ACTIVE,Sales,Management,svp sales accounts
+153,3,Vendome Group,https://www.linkedin.com/company/vendome-group,IT Manager,2013-08,2014-07,INACTIVE,Information Technology,Senior,it manager
+153,5,MHP – A Porsche Company,https://www.linkedin.com/company/mhp-a-porsche-company,Consultant,2016-09,2019-12,INACTIVE,Consulting,Senior,consultant
+153,6,MHP – A Porsche Company,https://www.linkedin.com/company/mhp-a-porsche-company,Senior Consultant,2020-01,2021-06,INACTIVE,Consulting,Senior,senior consultant
+154,9,Museum Hack,https://www.linkedin.com/company/museum-hack,Content Consultant,2015-01,2015-07,INACTIVE,Consulting,Senior,content consultant
+156,2,Burda Verlag,,Assistent Redaktionsverwaltung,1982-01,1985-06,INACTIVE,Administrative,Junior,assistent redaktionsverwaltung
+159,2,Acument Global Technolgies,,Sales Engineer,2005-01,2009-12,INACTIVE,Sales,Senior,sales engineer
+159,3,FONTANA GRUPPO,https://www.linkedin.com/company/fontana-gruppo,Key Account Manager,2010-01,2018-12,INACTIVE,Sales,Senior,key account manager
+159,4,Arnold Umformtechnik GmbH & Co. KG,https://www.linkedin.com/company/arnold-umformtechnik-gmbh-&-co-kg,Global Key Account Manager,2019-01,2020-12,INACTIVE,Sales,Senior,global key account manager
+159,5,RB&W Manufacturing,https://www.linkedin.com/company/rb&w-manufacturing,Business Development & Key Account Manager,2021-01,,ACTIVE,Business Development,Senior,business development key account manager
+164,1,Nykredit,https://www.linkedin.com/company/nykredit,Sales Consultant,2017-09,2019-01,INACTIVE,Sales,Senior,sales consultant
+166,4,FOG Kurumsal Hizmetler A.Ş.,https://www.linkedin.com/company/fogkurumsal,Senior Management Consultant,2017-04,2018-06,INACTIVE,Consulting,Senior,senior management consultant
+166,5,EY,https://www.linkedin.com/company/ernstandyoung,Senior Consultant,2018-06,2021-02,INACTIVE,Consulting,Senior,senior consultant
+168,6,Trinseo,https://www.linkedin.com/company/trinseo,Global Marketing Manager Automotive,2018-09,2022-12,INACTIVE,Marketing,Senior,global marketing manager automotive
+168,7,Trinseo,https://www.linkedin.com/company/trinseo,Manager Business Development Europe,2021-01,2022-12,INACTIVE,Business Development,Senior,manager business development europe
+168,9,Delrin,https://www.linkedin.com/company/delrin-acetal-homopolymer,Sales Director EMEA,2024-07,,ACTIVE,Sales,Director,sales director emea
+169,2,ABB,https://www.linkedin.com/company/abb,Head of Service Operations /Turbocharging,2001-04,2014-07,INACTIVE,Other,Lead,head of service operations turbocharging
+171,4,P3 Group,https://www.linkedin.com/company/p3,Business Consultant,2012-10,2013-01,INACTIVE,Business Development,Senior,business consultant
+171,6,Lufthansa Technik,https://www.linkedin.com/company/lufthansa-technik,Head of Business Development Strategy,2015-10,2017-12,INACTIVE,Business Development,Lead,head of business development strategy
+173,4,Rocket Internet SE,https://www.linkedin.com/company/rocket-internet-se,"Managing Director & Founder RCKT, SVP Global Communications",2012-07,2015-10,INACTIVE,Marketing,Director,managing director founder rckt svp global communications
+175,1,Patriot Group International Inc.,https://www.linkedin.com/company/patriot-group-international-inc-,Sub-contractor/Consultant,2015-09,2015-10,INACTIVE,Consulting,Senior,sub contractor consultant
+176,5,Fraunhofer IPMS,https://www.linkedin.com/company/fraunhofer-ipms,Research Associate and Project Manager,2003-03,,ACTIVE,Project Management,Senior,research associate and project manager
+176,7,Fraunhofer IPMS,https://www.linkedin.com/company/fraunhofer-ipms,Deputy Head of Business Unit Active Microoptical Devices and Systems (AMS),2007-03,2015-08,INACTIVE,Business Development,Lead,deputy head of business unit active microoptical devices and systems ams
+181,1,3defacto GmbH,https://www.linkedin.com/company/3defacto-gmbh,Projektleiter,2004,2023-10,INACTIVE,Project Management,Lead,projektleiter
+185,5,3f,,IT Consultant,2006-03,2015-12,INACTIVE,Consulting,Senior,it consultant
+194,1,NewEn s.r.l,https://www.linkedin.com/company/newen-s.r.l,Marketing Junior Consultant,2011-01,2011-12,INACTIVE,Consulting,Junior,marketing junior consultant
+195,4,Graphic Packaging International - Europe,https://www.linkedin.com/company/graphic-packaging-international-emea-apac,Head of Customer Sales Service & Sales Controlling,2024-04,,ACTIVE,Sales,Lead,head of customer sales service sales controlling
+199,2,"Spindler & Hoyer, später LINOS",,Head of Business Division Industrial Manufacturing,1989,2004,INACTIVE,Business Development,Lead,head of business division industrial manufacturing
+200,2,MODUS Consult GmbH,https://www.linkedin.com/company/modus-consult,Junior Consultant,2015-11,2017-04,INACTIVE,Consulting,Junior,junior consultant
+200,3,MODUS Consult GmbH,https://www.linkedin.com/company/modus-consult,Project Consultant,2017-05,2019-05,INACTIVE,Consulting,Senior,project consultant
+200,4,MODUS Consult GmbH,https://www.linkedin.com/company/modus-consult,Presales Consultant,2019-06,2021-02,INACTIVE,Consulting,Senior,presales consultant
+200,5,Microsoft,https://www.linkedin.com/company/microsoft,Sales Consultant - Business Application,2021-03,,ACTIVE,Sales,Senior,sales consultant business application
+201,6,Timken GmbH,,Sales Engineer,2017-01,2018-06,INACTIVE,Sales,Senior,sales engineer
+201,7,Medtronic,https://www.linkedin.com/company/medtronic,Technical Consultant,2018-09,2024-06,INACTIVE,Consulting,Senior,technical consultant
+201,8,Medtronic,https://www.linkedin.com/company/medtronic,Senior Technical Consultant,2024-07,,ACTIVE,Consulting,Senior,senior technical consultant
+203,10,Organto Foods,https://www.linkedin.com/company/organto-foods-inc,Project Manager packhouse organic vegetable,2017-09,2018-02,INACTIVE,Project Management,Senior,project manager packhouse organic vegetable
+203,12,Kamps Sperziebonen,https://www.linkedin.com/company/kamps-sperziebonen,Packhouse Managing consultant,2018-09,,ACTIVE,Consulting,Senior,packhouse managing consultant
+210,1,Atlas Copco,https://www.linkedin.com/company/atlas-copco,General Operations Manager,2000-01,2025-02,INACTIVE,Other,Senior,general operations manager
+212,1,Allianz Life,https://www.linkedin.com/company/allianz-life,Consultant for international Employee Benefits,2000-10,2002-01,INACTIVE,Consulting,Senior,consultant for international employee benefits
+212,2,IDS Scheer,,Consultant for Financial Services / Insurance,2002-01,2002-06,INACTIVE,Consulting,Senior,consultant for financial services insurance
+212,3,Victoria Lebensversicherung AG,,Consultant for Employee Benefits (Corporate New Business Department),2002-07,2007-12,INACTIVE,Business Development,Senior,consultant for employee benefits corporate new business department
+212,6,ERGO INSURANCE (Belgium),https://www.linkedin.com/company/ergo-insurance-nv-sa,Head of IT Benelux,2013-04,2017-08,INACTIVE,Information Technology,Lead,head of it benelux
+219,1,STAHLGRUBER GmbH,https://www.linkedin.com/company/lkq-stahlgruber,Produkt- und Key Account Manager Industrie Division,1989-11,1998-05,INACTIVE,Sales,Senior,produkt und key account manager industrie division
+222,5,mailingwork GmbH,https://www.linkedin.com/company/mailingwork-gmbh,Sales Manager,2014-04,2014-04,INACTIVE,Sales,Senior,sales manager
+222,6,mailingwork GmbH,https://www.linkedin.com/company/mailingwork-gmbh,Partner Account Manager,2014-05,2018-12,INACTIVE,Sales,Senior,partner account manager
+226,2,Nokia Networks,,Various senior management positions in sales and services,1998-03,2003-07,INACTIVE,Sales,Senior,various senior management positions in sales and services
+226,3,Scanfil Oyj,https://www.linkedin.com/company/scanfil-plc,"Vice President, Sales and Business Development",2003-08,2007-07,INACTIVE,Sales,Management,vice president sales and business development
+226,5,Scanfil plc,https://www.linkedin.com/company/scanfil-plc,"Director, Sales and Marketing",2012-01,2013-03,INACTIVE,Marketing,Director,director sales and marketing
+226,9,Jofin Consulting Oy,,Independent Consultant,2024-01,,ACTIVE,Consulting,Senior,independent consultant
+228,1,Bain & Company,https://www.linkedin.com/company/bain-and-company,Consultant,1988-08,1991-01,INACTIVE,Consulting,Senior,consultant
+233,1,Black Line Capital Inc.,,Vice President Sales & Marketing,2005-06,2024-06,INACTIVE,Marketing,Management,vice president sales marketing
+234,6,PPG,https://www.linkedin.com/company/ppg,Director of Marketing / Senior Marketing Manager,2013-01,2025-03,INACTIVE,Marketing,Senior,director of marketing senior marketing manager
+238,3,CTG,https://www.linkedin.com/company/ctginc,Senior Regional Human Resources Manager,2006,2007,INACTIVE,Human Resources,Senior,senior regional human resources manager
+238,8,SS&C Technologies,https://www.linkedin.com/company/ss-c-technologies,Senior Human Resources Manager,2022-01,,ACTIVE,Human Resources,Senior,senior human resources manager
+241,8,TEDxOxford,https://www.linkedin.com/company/tedxoxford,Head Of Marketing,2022-05,2023-05,INACTIVE,Marketing,Lead,head of marketing
+241,13,altwater,https://www.linkedin.com/company/altwater,Marketing Executive,2023-08,2025-04,INACTIVE,Marketing,Senior,marketing executive
+241,14,KatKin,https://www.linkedin.com/company/katkin,Influencer Marketing Executive,2025-05,,ACTIVE,Marketing,Senior,influencer marketing executive
+250,4,Cellent GmbH,,Junior Consultant Analytics,2018-10,2019-01,INACTIVE,Consulting,Junior,junior consultant analytics
+252,6,e-fellows.net,https://www.linkedin.com/company/e-fellows-net,Freier Mitarbeiter (Marketing),2014-09,2015-11,INACTIVE,Marketing,Junior,freier mitarbeiter marketing
+254,1,SWICA Krankenversicherung AG,,Leiter Fachbereich IT Security & Engineering,,,UNKNOWN,Information Technology,Lead,leiter fachbereich it security engineering
+260,2,Peek & Cloppenburg KG Düsseldorf,https://www.linkedin.com/company/peek-cloppenburg-kg-duesseldorf,Abteilungsleiter Vertrieb,2007-04,2010-07,INACTIVE,Sales,Lead,abteilungsleiter vertrieb
+260,8,Rudolf Wöhrl SE,https://www.linkedin.com/company/rudolf-wöhrl-se,Chief Sales Officer,2020-08,2023-07,INACTIVE,Sales,Management,chief sales officer
+269,1,Bohnert Groß & Partner,,Project manager,2003-05,2006-05,INACTIVE,Project Management,Senior,project manager
+274,7,Provadis Partner für Bildung und Beratung GmbH,,IT-Consultant,2009-06,2010-06,INACTIVE,Consulting,Senior,it consultant
+274,8,ADticket GmbH,https://www.linkedin.com/company/adticket-gmbh,IT-Consultant,2010-03,2017-04,INACTIVE,Consulting,Senior,it consultant
+274,10,ERWEKA GmbH,https://www.linkedin.com/company/erweka-gmbh,IT-Consultant & Solution Architekt,2017-04,,ACTIVE,Consulting,Senior,it consultant solution architekt
+279,1,robert obermeyer consulting GmbH,https://www.linkedin.com/company/robert-obermeyer-consulting,Consultant,2009-01,2013-03,INACTIVE,Consulting,Senior,consultant
+279,2,robert obermeyer consulting GmbH,https://www.linkedin.com/company/robert-obermeyer-consulting,Project Manager / Authorised Officer,2013-03,2018-12,INACTIVE,Project Management,Senior,project manager authorised officer
+282,1,proLean Consulting AG,,Consultant,2006-09,2009-07,INACTIVE,Consulting,Senior,consultant
+284,5,OÖNachrichten,https://www.linkedin.com/company/oönachrichten,Vertriebsleiter,2021-08,,ACTIVE,Sales,Lead,vertriebsleiter
+285,2,Erwin Renz Metallwarenfabrik GmbH & Co KG,https://www.linkedin.com/company/erwin-renz-metallwarenfabrik-gmbh-co-kg,Projekt Manager,2007-05,2013-06,INACTIVE,Project Management,Senior,projekt manager
+285,3,Erwin Renz Metallwarenfabrik GmbH & Co KG,https://www.linkedin.com/company/erwin-renz-metallwarenfabrik-gmbh-co-kg,CRM-Manager,2008-01,2015-12,INACTIVE,Information Technology,Senior,crm manager
+290,1,Drooms,https://www.linkedin.com/company/drooms-software,Marketing Mitarbeiterin,2005-11,2006-12,INACTIVE,Marketing,Junior,marketing mitarbeiterin
+290,2,Drooms,https://www.linkedin.com/company/drooms-software,Marketing Manager,2007-01,2008-10,INACTIVE,Marketing,Senior,marketing manager
+290,3,Drooms,https://www.linkedin.com/company/drooms-software,Vice President Marketing,2008-11,2011-08,INACTIVE,Marketing,Management,vice president marketing
+292,5,Unicor Rohrsysteme GmbH,,Gruppenleiter Vertrieb Bau-/Energietechnik,1997-01,1997-12,INACTIVE,Sales,Lead,gruppenleiter vertrieb bau energietechnik
+292,6,Unicor Rohrsysteme GmbH,,Abteilungsleiter Vertrieb Bau-/Energietechnik,1998-01,1998-12,INACTIVE,Sales,Lead,abteilungsleiter vertrieb bau energietechnik
+292,7,Unicor Rohrsysteme GmbH (später umfimiert in Uponor),,Vertriebsleiter Division I - Structured Wall Pipe Systems - Europe,1999-01,2001-12,INACTIVE,Sales,Lead,vertriebsleiter division i structured wall pipe systems europe
+292,8,Uponor Rohrsysteme GmbH,,Area Sales Manager Industrial Applications Europe,2002-01,2003-12,INACTIVE,Sales,Senior,area sales manager industrial applications europe
+292,9,Uponor Rohrsysteme GmbH,,Area Sales Manager Tschechien,2004-01,2005-01,INACTIVE,Sales,Senior,area sales manager tschechien
+292,10,Uponor GmbH,https://www.linkedin.com/company/uponor,"Director, Sales Unit Benelux",2005-02,,ACTIVE,Sales,Director,director sales unit benelux
+293,3,Thales-Heim Systems GmbH hervorgegangen aus der Racal-Heim Systems GmbH,,Stellvertreter und Assistent des Fertigungsleiters Elektronik und Mechanik,1998-10,2001-12,INACTIVE,Administrative,Junior,stellvertreter und assistent des fertigungsleiters elektronik und mechanik
+293,4,CeramOptec GmbH,https://www.linkedin.com/company/ceramoptec-gmbh,Kaufmännischer Assistent des Leiters der Laserproduktion,2001-01,2002-09,INACTIVE,Administrative,Junior,kaufmannischer assistent des leiters der laserproduktion
+293,9,Universitätsklinikum Bonn - über Amadeus FiRE AG - Zeitarbeit,,stellvertretender und Projektleiter Baueinkauf,2015-09,2016-01,INACTIVE,Project Management,Lead,stellvertretender und projektleiter baueinkauf
+294,1,Atlas Copco,https://www.linkedin.com/company/atlas-copco,VP Business Development,2001-01,2020-01,INACTIVE,Business Development,Management,vp business development
+294,2,Atlas Copco,https://www.linkedin.com/company/atlas-copco,VP Market Intelligence - Business Development - Sales,2020-01,,ACTIVE,Sales,Management,vp market intelligence business development sales
+302,2,BP,https://www.linkedin.com/company/bp,Key Account Manager Automotive Lubes,2000-09,2005-06,INACTIVE,Sales,Senior,key account manager automotive lubes
+302,3,Daimler,https://www.linkedin.com/company/mercedes-benz_ag,Sales Director Mercedes-Benz Lubricants,2005-07,2011-12,INACTIVE,Sales,Director,sales director mercedes benz lubricants
+302,4,LUKOIL,https://www.linkedin.com/company/lukoil,Deputy General Director for International Business Development,2012-01,2012-10,INACTIVE,Business Development,Director,deputy general director for international business development
+307,1,RLC Packaging Group,,Senior Key Account Manager,2010-04,2020-04,INACTIVE,Sales,Senior,senior key account manager
+307,2,Nestler Wellpappe GmbH,https://www.linkedin.com/company/nestler-wellpappe-gmbh,Account-Manager,2020-04,,ACTIVE,Sales,Senior,account manager
+308,3,KATHREIN Group,,System Engineer - Communication Solutions,2016-07,2017-03,INACTIVE,Marketing,Senior,system engineer communication solutions
+308,6,Ericsson,https://www.linkedin.com/company/ericsson,Project Manager,2020-03,2022-06,INACTIVE,Project Management,Senior,project manager
+308,8,Ericsson,https://www.linkedin.com/company/ericsson,Head of Digital Radio Design,2023-10,,ACTIVE,Information Technology,Lead,head of digital radio design
+309,2,Amaris Zorggroep,https://www.linkedin.com/company/amaris-zorggroep,Assistent,2022-07,,ACTIVE,Administrative,Junior,assistent
+312,2,Centaur Media Plc,https://www.linkedin.com/company/centaur-media-plc,Sales & Marketing Executive,2014-07,2016-08,INACTIVE,Marketing,Senior,sales marketing executive
+312,3,The I.S. Group Ltd,https://www.linkedin.com/company/the-is-group-ltd,Marketing Executive,2016-08,2018-09,INACTIVE,Marketing,Senior,marketing executive
+312,4,Utility Warehouse,https://www.linkedin.com/company/utilitywarehouse,Product Marketing Executive,2018-09,2022-01,INACTIVE,Marketing,Senior,product marketing executive
+312,5,Dotdigital,https://www.linkedin.com/company/dotdigital,Global Product Marketing Manager,2022-01,,ACTIVE,Marketing,Senior,global product marketing manager
+316,2,HP,https://www.linkedin.com/company/hp,Product Marketing Engineer,1993-10,1994-06,INACTIVE,Marketing,Senior,product marketing engineer
+316,6,Revalize,https://www.linkedin.com/company/revalize,Projektleiter,2021-12,2023-02,INACTIVE,Project Management,Lead,projektleiter
+319,5,Sanlam,https://www.linkedin.com/company/sanlam,Senior Operations Manager: Client Services,2009-10,2011-07,INACTIVE,Other,Senior,senior operations manager client services
+319,7,Liberty Group South Africa,https://www.linkedin.com/company/liberty-group,Head of Operations,2017-06,2019-01,INACTIVE,Other,Lead,head of operations
+319,12,Fisher Funds,https://www.linkedin.com/company/fisher-funds,Investment Operations Manager,2022-10,2025-05,INACTIVE,Other,Senior,investment operations manager
+320,3,Avery Dennison,https://www.linkedin.com/company/avery-dennison,Business Development manager,1996-08,1998-11,INACTIVE,Business Development,Senior,business development manager
+320,4,International Paper,https://www.linkedin.com/company/international-paper,HP business manager,1998,2008,INACTIVE,Business Development,Senior,hp business manager
+320,5,Internatiónal Paper,,HP Business Manager Europe,1998-11,2011-11,INACTIVE,Business Development,Senior,hp business manager europe
+320,6,International Paper,https://www.linkedin.com/company/international-paper,Pan-European Account manager,2010-01,2022-09,INACTIVE,Sales,Senior,pan european account manager
+320,7,Sylvamo,https://www.linkedin.com/company/sylvamoco,"regional manager DACH, strategic account manager",2021-08,2024-06,INACTIVE,Sales,Senior,regional manager dach strategic account manager
+321,2,CeramTec – Die Keramik-Experten,https://www.linkedin.com/company/ceramtec-the-ceramic-experts,Leiter Arbeitsvorbereitung/Einkauf,2005-09,2011-03,INACTIVE,Purchasing,Lead,leiter arbeitsvorbereitung einkauf
+321,3,Eberhard AG,https://www.linkedin.com/company/eberhard-ag,Leiter Arbeitsvorbereitung/Einkauf,2011-04,2016-04,INACTIVE,Purchasing,Lead,leiter arbeitsvorbereitung einkauf
+322,1,LEONHARD WEISS GmbH & Co. KG,https://www.linkedin.com/company/leonhard-weiss-gmbh-&-co-kg,Bau- und Projektleitung,2020-09,2021-01,INACTIVE,Project Management,Lead,bau und projektleitung
+322,2,LEONHARD WEISS GmbH & Co. KG,https://www.linkedin.com/company/leonhard-weiss-gmbh-&-co-kg,Bau- und Projektleitung,2021-02,2021-03,INACTIVE,Project Management,Lead,bau und projektleitung
+325,1,MSL,https://www.linkedin.com/company/msl,Consultant,1991,1993,INACTIVE,Consulting,Senior,consultant
+325,2,CENIT GmbH,,Vertriebsleiter Manufacturing,1993,1998,INACTIVE,Sales,Lead,vertriebsleiter manufacturing
+325,8,Dassault Systèmes,,"Director, Sales Europe, ENOVIA MatrixONE",2006-12,2007-09,INACTIVE,Sales,Director,director sales europe enovia matrixone
+326,3,"Solta Medical, Inc.",https://www.linkedin.com/company/soltamedical,Sales Director Asia Pacific,2004-07,2009-05,INACTIVE,Sales,Director,sales director asia pacific
+328,4,ISS A/S,https://www.linkedin.com/company/iss-facility-services-a-s,Project Manager,2000,2003,INACTIVE,Project Management,Senior,project manager
+328,5,NCC,https://www.linkedin.com/company/ncc,Chief Project Manager,2003,2007,INACTIVE,Project Management,Senior,chief project manager
+328,6,Flintstone Paver Installations,https://www.linkedin.com/company/flintstone-paver-installations,COO Operations Manager,2007-04,2009-03,INACTIVE,Other,Senior,coo operations manager
+328,7,Rudersdals kommune,https://www.linkedin.com/company/rudersdal-kommune,Project Manager,2009,2016,INACTIVE,Project Management,Senior,project manager
+328,8,Rudersdals kommune,https://www.linkedin.com/company/rudersdal-kommune,Project Manager/ Entreprise leder,2009-03,2015-05,INACTIVE,Project Management,Senior,project manager entreprise leder
+328,10,C.C.C. Climate Change Consulting LLC,,Consultant CEO and owner,2016-01,,ACTIVE,Consulting,Senior,consultant ceo and owner
+328,13,NCC,https://www.linkedin.com/company/ncc,Senior chief Project Manager,2018-05,2018-11,INACTIVE,Project Management,Senior,senior chief project manager
+328,17,Københavns Kommune,https://www.linkedin.com/company/kobenhavns-kommune,Anlægsprojektleder project manager,2020-10,2022-12,INACTIVE,Project Management,Senior,anl gsprojektleder project manager
+329,4,Accenture,https://www.linkedin.com/company/accenture,Business Strategy Consultant,2022-06,,ACTIVE,Consulting,Senior,business strategy consultant
+330,2,UTILITY PARTNERS GmbH,https://www.linkedin.com/company/utility-partners,Consultant,2009,2012,INACTIVE,Consulting,Senior,consultant
+330,4,UTILITY PARTNERS GmbH,https://www.linkedin.com/company/utility-partners,Senior Lead Consultant,2012,2016,INACTIVE,Consulting,Senior,senior lead consultant
+331,7,Refugee Dormitory,,Project Manager / Team Leader,2016-01,2017-04,INACTIVE,Project Management,Senior,project manager team leader
+331,8,SAP,https://www.linkedin.com/company/sap,Project Manager,2020-04,2021-06,INACTIVE,Project Management,Senior,project manager
+332,2,BSH Bosch and Siemens Home Appliances Group,https://www.linkedin.com/company/bsh-home-appliances-group,"Executive Project Manager, Service division",1993-07,1994-12,INACTIVE,Project Management,Senior,executive project manager service division
+332,3,BSH Bosch and Siemens Home Appliances Group,https://www.linkedin.com/company/bsh-home-appliances-group,Vice Director Marketing & Business development,1995-01,1995-12,INACTIVE,Marketing,Director,vice director marketing business development
+332,6,BSH Bosch and Siemens Home Appliances Group,https://www.linkedin.com/company/bsh-home-appliances-group,"Vice President Marketing, Cooking Division",2001-07,2004-03,INACTIVE,Marketing,Management,vice president marketing cooking division
+332,7,BSH Bosch and Siemens Home Appliances Group,https://www.linkedin.com/company/bsh-home-appliances-group,Senior Vice President Sales and Marketing,2004-04,2008-12,INACTIVE,Marketing,Management,senior vice president sales and marketing
+332,8,BSH Bosch and Siemens Home Appliances Group,https://www.linkedin.com/company/bsh-home-appliances-group,"Senior Vice President Sales and Marketing / Asia - Pacific, India",2009-01,2013-06,INACTIVE,Marketing,Management,senior vice president sales and marketing asia pacific india
+336,4,Mattress Firm,https://www.linkedin.com/company/mattressfirm,Sales Manager,2009-04,2012-10,INACTIVE,Sales,Senior,sales manager
+336,6,Home Depot,https://www.linkedin.com/company/home-depot-at-home-services,Senior Business Analyst,2015-05,2019-01,INACTIVE,Business Development,Senior,senior business analyst
+336,7,MorganFranklin Consulting,https://www.linkedin.com/company/morganfranklin-consulting,Sr Consultant,2019-01,2021-08,INACTIVE,Consulting,Senior,sr consultant
+337,3,Unisys @ Omnicom Media Group Chicago,,IT Field Engineer III,2018-08,2019-09,INACTIVE,Information Technology,Senior,it field engineer iii
+341,2,Novo Nordisk,https://www.linkedin.com/company/novo-nordisk,Talent Acquisition Consultant,2022-02,2023-07,INACTIVE,Consulting,Senior,talent acquisition consultant
+341,4,Green Hydrogen Systems,https://www.linkedin.com/company/greenhydrogen.dk,Human Resources Consultant,2024-02,2025-03,INACTIVE,Consulting,Senior,human resources consultant
+342,5,Delphi Automotive Systems,https://www.linkedin.com/company/delphi,Audio Account Manager,1996-09,2000-10,INACTIVE,Sales,Senior,audio account manager
+342,6,Catem North America,,North American Sales Manager,2000-10,2003-05,INACTIVE,Sales,Senior,north american sales manager
+342,7,Business consultants various,,Director of Marketing,2009-09,2010-06,INACTIVE,Marketing,Director,director of marketing
+344,4,Smart Fuel Cell GmbH,,Project Manager,2000-07,2004-06,INACTIVE,Project Management,Senior,project manager
+344,5,Smart Fuel Cell GmbH,,Business Development Manager,2004-07,2005-08,INACTIVE,Business Development,Senior,business development manager
+344,9,SFC Energy AG,https://www.linkedin.com/company/sfc-energy-ag,VP Sales,2014-01,2019-12,INACTIVE,Sales,Management,vp sales
+344,10,SFC Energy AG,https://www.linkedin.com/company/sfc-energy-ag,Head of Sales,2014-01,2014-12,INACTIVE,Sales,Lead,head of sales
+352,1,Cognizant,https://www.linkedin.com/company/cognizant,Director - Consulting HR-IT Strategy & Business Innovation Continental Europe,2014-07,2015-04,INACTIVE,Human Resources,Director,director consulting hr it strategy business innovation continental europe
+352,2,Cognizant,https://www.linkedin.com/company/cognizant,"Director - Head of HCM Consulting, HR-IT Strategy & Innovation Europe",2015-04,2017-07,INACTIVE,Human Resources,Director,director head of hcm consulting hr it strategy innovation europe
+353,4,Arcor (A vodafone company),https://www.linkedin.com/company/arcor,Key Account Manager,1998-01,1998-12,INACTIVE,Sales,Senior,key account manager
+357,1,HighQ-IT for the financial industry GmbH,,Consultant,2004-11,2013-12,INACTIVE,Consulting,Senior,consultant
+359,1,Andersen Consulting,,"Associate Consultant, Strategic Group",1996-11,1997-01,INACTIVE,Consulting,Senior,associate consultant strategic group
+360,4,seko,,"Software Engineer, Consultant",2017-05,2019-11,INACTIVE,Consulting,Senior,software engineer consultant
+362,4,Aurubis,https://www.linkedin.com/company/aurubis,Projektleiter,2020-07,,ACTIVE,Project Management,Lead,projektleiter
+365,2,Ahsenmacher Metzgerei,https://www.linkedin.com/company/ahsenmacher-metzgerei,Catering-Assistent,2019,2020,INACTIVE,Administrative,Junior,catering assistent
+369,4,Fairway Independent Mortgage Corporation,https://www.linkedin.com/company/fairway-independent-mortgage-corporation,Sales Manager / MLO Recruitment / Mortgage Planner,2014-06,2017-07,INACTIVE,Sales,Senior,sales manager mlo recruitment mortgage planner
+369,6,"Caliber Home Loans, Inc.",https://www.linkedin.com/company/caliber-home-loans,"Sales Manager at Caliber Home Loans, Inc. |Portfolio Lender | NMLS#214269",2019-05,2020-10,INACTIVE,Sales,Senior,sales manager at caliber home loans inc portfolio lender nmls 214269
+369,7,SecurityNational Mortgage NMLS # 3116,,Sales Manager,2020-10,2023-09,INACTIVE,Sales,Senior,sales manager
+369,8,Guild Mortgage,https://www.linkedin.com/company/guild-mortgage-company,Sales Manager,2023-09,,ACTIVE,Sales,Senior,sales manager
+372,2,Citigroup,https://www.linkedin.com/company/citi,Consultant,2005,2006,INACTIVE,Consulting,Senior,consultant
+372,3,Citigroup,https://www.linkedin.com/company/citi,Consultant,2005,2006,INACTIVE,Consulting,Senior,consultant
+372,8,Lindner Corporation,,Principal Consultant,2014-04,,ACTIVE,Consulting,Senior,principal consultant
+373,1,EPRO SECURE,https://www.linkedin.com/company/epro-secure,Projektleiter,2017-04,2023-01,INACTIVE,Project Management,Lead,projektleiter
+376,2,Beckman Coulter,https://www.linkedin.com/company/beckman-coulter,European Operations Manager Primary Care Diagnostics,1998,2005,INACTIVE,Other,Senior,european operations manager primary care diagnostics
+376,7,Private Consultancy,,Strategy Consultant,2008-01,2009-11,INACTIVE,Consulting,Senior,strategy consultant
+377,3,TaxNetworkUSA,https://www.linkedin.com/company/taxnetworkusa,Human Resources Manager,2024-04,,ACTIVE,Human Resources,Senior,human resources manager
+381,2,Hewlett Packard Enterprise,https://www.linkedin.com/company/hewlett-packard-enterprise,Head of Hybrid Cloud Solution Sales Germany,2024-11,,ACTIVE,Sales,Lead,head of hybrid cloud solution sales germany
+384,1,Nestle,https://www.linkedin.com/company/nestle-s-a-,Project Manager Entwicklung /Lebensmittel,1989-09,,ACTIVE,Project Management,Senior,project manager entwicklung lebensmittel
+384,2,Nestlé,https://www.linkedin.com/company/nestle-s-a-,Project Manager,,,UNKNOWN,Project Management,Senior,project manager
+385,2,Wetrok AG,https://www.linkedin.com/company/wetrok,Head of Marketing Services,2004-05,2006-05,INACTIVE,Marketing,Lead,head of marketing services
+385,6,tegut...,https://www.linkedin.com/company/tegut,Project Manager,2014-02,2014-12,INACTIVE,Project Management,Senior,project manager
+385,10,Freiberuflich,,Consultant,2024-11,,ACTIVE,Consulting,Senior,consultant
+387,3,SAS Automotive Systems,https://www.linkedin.com/company/sas-motherson,Head of IT Performance Management & JIS,2009-03,2011-12,INACTIVE,Information Technology,Lead,head of it performance management jis
+387,4,SAS Automotive Systems,https://www.linkedin.com/company/sas-motherson,Head of IT Central Business Applications,2012-01,2017-12,INACTIVE,Information Technology,Lead,head of it central business applications
+387,5,SAS Automotive Systems,https://www.linkedin.com/company/sas-motherson,Head of Corporate IT Central Systems,2018-01,2019-01,INACTIVE,Information Technology,Lead,head of corporate it central systems
+390,2,Folkwang Universität der Künste,,"Leitung Gebäudemanagement, Einkauf und Controlling",2004-03,2005-09,INACTIVE,Purchasing,Lead,leitung gebaudemanagement einkauf und controlling
+390,4,Folkwang Universität der Künste,,"Leitung Personal, Finanzen, Einkauf, IT | Folkwang Universität der Künste",2015-07,,ACTIVE,Purchasing,Lead,leitung personal finanzen einkauf it folkwang universitat der kunste

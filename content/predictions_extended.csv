@@ -1,0 +1,315 @@
+person_id,position,organization,num_positions,department_pred,seniority_pred
+0,Bookkeeper,"Keeping The Books, Bookkeeping",8,Other,Professional
+1,Strategy & Investments,Erste Bank und Sparkasse,13,Finance,Management
+2,Corporate Auditor,Guido Meyer,2,Other,Management
+4,Marketing Manager,Tradeware AG,8,Marketing,Senior
+5,Professor,Monash University,10,Other,Professional
+6,Program Purchasing Leader / Program / Acquisition Buyer,Faurecia Innenraum Systeme GmbH,4,Purchasing,Management
+8,Business Analyst,ALSO Deutschland GmbH,1,Business Development,Professional
+10,Managementberater IT- und Governance,Brandtner IT,10,Information Technology,Professional
+11,Founder & CEO,DGC FILM WORKS,4,Other,Management
+12,Geschäftsführer,auris Steuerberatung OG,2,Other,Management
+14,Manager,Daimler AG,9,Other,Senior
+16,Koordinerende sagsbehandler,Gladsaxe Kommune,1,Other,Professional
+17,Head of Supply Chain,Aglukon Spezialdünger GmbH & Co. KG,4,Other,Lead
+18,Director of Finance (China),delta pronatura GmbH,8,Purchasing,Director
+19,Inhaber,Bettina Kern,18,Other,Professional
+20,Geschäftsführer CFO,Policen Direkt-Gruppe,5,Other,Management
+21,Mitglied der Geschäftsleitung,r2b energy consulting GmbH,5,Other,Lead
+22,"Global Marketing Director, Nonwovens",Owens Corning,6,Marketing,Director
+23,Social Researcher,"Gesellschaft für Wirtschaft, Arbeit und Kultur",4,Information Technology,Junior
+25,Berater,Personalberatung JG,4,Consulting,Professional
+26,Center Management,ASTERION Germany GmbH,1,Other,Senior
+27,Senior Project Manager,Selbstständig,9,Project Management,Senior
+28,Federal Account Manager,FCN Inc.,6,Other,Professional
+31,Brand Strategist,Studio Mondu,4,Marketing,Senior
+32,Senior Category Manager,Novo Nordisk,6,Information Technology,Senior
+33,General Manager,Selbstständig,3,Other,Senior
+35,Owner and Executive Director,Luxury Custom Yachts GmbH,12,Other,Director
+36,Founder & Managing Director,eye4improve,9,Other,Director
+37,Orthodontie assistent,Orthocenter,5,Administrative,Junior
+38,Manager Risk Advisory,Deloitte,1,Marketing,Senior
+39,Systemadministrator Clientservices,IT-Services der Sozialversicherung GmbH,4,Customer Support,Director
+40,IT Program Manager – Information Security,Montgomery County,4,Information Technology,Senior
+41,Pionier der Strömungsoptimierung und Wasserstofftechnologien für effiziente Energielösungen,Sventronik.com,18,Other,Lead
+43,CEO,eightbit experts GmbH,6,Other,Management
+44,Head of Payment IT Solutions,Lufthansa Group,6,Customer Support,Lead
+45,Banking Prudential Supervision Analyst,Banco de Portugal,6,Consulting,Junior
+46,Geschäftsführer,Steinbeis Papier GmbH,1,Other,Management
+47,CEO,eyebase DAM,4,Other,Management
+48,SVP People & Culture Management and Services; CEO METRO Campus Services GmbH,METRO AG,12,Information Technology,Professional
+50,Managing Director,Daniel Software GmbH,2,Other,Director
+51,Building Consultant,Building Inspectors SA Pty Ltd,3,Consulting,Senior
+52,Managing Director,HOCHTIEF ViCon,3,Other,Director
+54,Senior Director,"SEC Co., Ltd",1,Other,Director
+55,Commercial Director On Trade,gdp Global Drinks Partnership GmbH,4,Other,Director
+56,CEO,SF Veranstaltungstechnik,2,Other,Management
+57,Senior Manager,Detecon International,10,Other,Senior
+58,Graduate Engineer,John Holland,4,Other,Junior
+59,Senior Architect,Saakar Creations Pvt Ltd,6,Project Management,Senior
+60,Dozent DHBW Stuttgart,DHBW Stuttgart,4,Sales,Lead
+61,Mitbegründer und Geschäftsführer,ROiOS,9,Other,Management
+63,Data Researcher,Veeva Systems,4,Other,Professional
+64,MD PhD MBA MMSc,Harvard,2,Business Development,Senior
+68,Co-Fundador & Lead Developer,Trackeen,8,Information Technology,Management
+70,Sales Manager,Rail Construction Equipment Co.,2,Sales,Senior
+71,"Director, Digital Services Business",Kalmar,9,Business Development,Director
+72,Unternehmensinhaber,Der-Astrid-Hartmann-Prozess,1,Other,Management
+73,Docent lichamelijke opvoeding,Calandlyceum Amsterdam,3,Information Technology,Management
+74,Marketing Engineer,ams OSRAM,7,Marketing,Junior
+75,Technischer Leiter,Brandt Schokoladen GmbH + Co. KG,9,Other,Lead
+76,Senior Advisor to the CS Pension Fund in Switzerland,Credit Suisse,8,Other,Senior
+77,Gruppenleiter HR KPI & Reporting,DR. JOHANNES HEIDENHAIN GmbH,4,Human Resources,Junior
+79,CEO,thyssenkrupp Materials Schweiz AG,3,Other,Management
+80,Responsable développement projets,L'éléfàn,5,Project Management,Senior
+81,Transformation Partner,TDC NET,8,Other,Professional
+82,"Executive Partner, Senior Software Engineer",Mirai Solutions GmbH,8,Consulting,Senior
+83,Secretary General/CEO Welthungerhilfe,Welthungerhilfe,7,Other,Management
+84,Fachreferent MatWerk - Materials Engineering Specialist,German Society for Materials Science - Deutsche Gesellschaft für Materialkunde e.V. (DGM),1,Other,Professional
+85,CEO,Immoheld,7,Other,Management
+86,Statistiker,Deutsche Bundesbank,3,Other,Professional
+87,Chief Operating Officer,Bee4GIS,7,Other,Management
+88,Adjunct Researcher,Deutsches Forschungszentrum für Künstliche Intelligenz (DFKI),9,Other,Professional
+89,Self-Employed,TSAR-Tech,1,Other,Junior
+90,Managing Partner,Sade Ofset Printing&Packaging,6,Other,Senior
+91,Partner,edge Performance Limited,11,Other,Professional
+94,Chief Information Officer,360 Media Direct,7,Other,Management
+95,Visiting Lecturer,HHL Leipzig Graduate School of Management,6,Other,Junior
+96,Präsidentin Technische Universität Berlin,Technische Universität Berlin,5,Other,Management
+97,Sr. Customer Support spec.,Billtrust,4,Sales,Lead
+98,Personalreferent,Misereor,1,Other,Professional
+99,Pflegefachkraft,St. Josef Hospital Dortmund,1,Other,Professional
+100,freischaffender Künstler,Selbständig,1,Other,Professional
+101,Subcommittee Member,New York State Developmental Disabilities Advisory Employment and Meaningful Activities Subcommittee,3,Other,Junior
+102,Deputy Chief,Superstition Fire & Medical District,3,Other,Professional
+103,Product Manager,TRATON GROUP,7,Other,Senior
+104,OM/Customer Success Manager,Papirfly,12,Project Management,Management
+105,Geschäftsführer,MAFRA Maile GmbH,1,Other,Management
+106,Senior Director Product Management,Dynatrace,7,Other,Director
+107,Matelot,Canal marée,3,Other,Professional
+108,Gebietsleiter LBS NordWest,LBS Landesbausparkasse NordWest,6,Project Management,Lead
+110,"Country Lead, Country Clinical Operations",Roche,9,Administrative,Lead
+111,Director,Vic Water,5,Other,Director
+112,Sales Manager,Photron Deutschland GmbH,3,Sales,Senior
+113,Undergraduate Research Assistant,Baylor University Point-of-Need Innovations Center,6,Other,Junior
+114,Technical Specialist,Financial Conduct Authority,2,Other,Professional
+115,Team Lead Global Supply Management,Tesla,6,Sales,Lead
+118,Leiter Projektmanagement / Projektleiter,Kanton Luzern,5,Project Management,Lead
+119,Unternehmensinhaber,One Point,1,Other,Management
+120,HR Business Partner,Neopac,7,Business Development,Senior
+121,Corporate recruiter,Hecht,7,Consulting,Junior
+122,Unternehmensinhaber,3F Kommunikation,1,Other,Management
+123,Sr. Drafting & Design Technologist .,Cenovus Energy,5,Consulting,Senior
+124,Owner,Xaretos,9,Other,Management
+125,Global Category Manager - Technology & Payment Solutions,bp,12,Other,Senior
+126,Program Manager,SHELL INFORMATION TECHNOLOGY INTERNATIONAL BV,15,Information Technology,Professional
+127,Chief Growth Officer,Paradise Tomato Kitchens - Signature Sauce. Signature Service,8,Marketing,Management
+128,Senior Software Developer,JetBrains,8,Information Technology,Senior
+129,Geschäftsführer / CEO&COO,PLAZAMEDIA GmbH,7,Other,Management
+130,Customer Executive & Member of Management Northern Europe,DNV,12,Other,Senior
+131,Senior Software Engineer at LIZ Smart Office GmbH,LIZ Smart Office GmbH,5,Business Development,Senior
+134,Recruitment Consultant,Progressive Recruitment,1,Consulting,Senior
+135,CEO,Merz Reisen GmbH,3,Other,Management
+136,Corporate Communications & Marketing Services Senior Manager,Canon Austria GmbH,7,Marketing,Senior
+137,International Clinical Project Manager,Scope International AG,6,Other,Senior
+138,Leiter Inhouse Logistik,Volkswagen AG,2,Other,Lead
+139,Technology Lead Germany - Global Partner Solutions,Microsoft,6,Customer Support,Professional
+140,Director of Sales and Marketing,Bustec,5,Marketing,Director
+141,Customer Success Manager,KnowBe4,3,Other,Senior
+142,Trade Marketing Manager,Luxottica Group,3,Marketing,Senior
+143,Head Currency Solutions,UBS,8,Other,Lead
+144,SVP Sales & Accounts,Artemis ITS,10,Sales,Management
+145,Managing Director,Copenhagen Color,2,Other,Director
+146,Construction site leader,Koop Bronbemaling B.V.,3,Project Management,Professional
+147,Data Manager,"Center for Earth System Research and Sustainability, University of Hamburg",3,Other,Senior
+148,Vice President - Supplier Enablement CoE,American Express,7,Other,Management
+149,Heimleiterin,Stiftung Liebenau,1,Other,Professional
+150,Chief Executive Officer,Level 20,9,Other,Management
+151,Inhaber und Geschäftsführer,A4 Agentur AG,1,Other,Management
+152,Senior Manager,MHP – A Porsche Company,8,Other,Senior
+153,Director of Education,Independence Seaport Museum,15,Other,Director
+154,Gerente Comercial,Baeza Jakob Hermanos Ltda,2,Marketing,Lead
+156,Designer,Global Arts,3,Other,Professional
+157,Gerente de RR.HH Mexico,"Apex Tool Group, LLC",10,Administrative,Lead
+158,Business Development & Key Account Manager,RB&W Manufacturing,5,Business Development,Senior
+160,CEO,CGI MAGIC MOVIE CORPORATION,1,Other,Management
+161,Quality Coordinator,Digital Realty,1,Other,Professional
+163,"Pensionskundechef / Account Executive - Global Employee Benefits, Corporate Pension",Söderberg & Partners Danmark,7,Other,Senior
+164,Principal Advisor,European Investment Bank (EIB),13,Finance,Professional
+165,Senior Manager,PwC,8,Other,Senior
+166,Geschäftsführender Gesellschafter,South West Vision GmbH,9,Other,Management
+167,Sales Director EMEA,Delrin,9,Sales,Director
+168,Geschäftsführender Gesellschafter,ALTTURBO GmbH,6,Other,Management
+169,Verkaufsleiter,argon lighting GmbH,5,Sales,Lead
+170,Chief Executive Officer,Lufthansa Technik Services India Pvt Ltd,8,Other,Management
+171,Senior Program Manager,RINA North America (formerly Patrick),4,Information Technology,Senior
+172,Independent Advisor to Founders and Funds,andwin Ltd.,9,Administrative,Management
+174,CST,PAE Technical Services GmbH,4,Other,Professional
+175,R&D group manager,Fraunhofer IPMS,7,Information Technology,Senior
+176,Klinischer Psychologe,Psychologie.8,2,Other,Professional
+178,Software Developer,SSingularity Technologies,3,Information Technology,Professional
+179,COO (Geschäftsführende Gesellschafterin),LegalTegrity,6,Other,Management
+180,Geschäftsführender Gesellschafter,ikonda GmbH,3,Other,Management
+182,Expat Jumbo Operator,Face Mining Services,9,Other,Management
+183,Geschäftsführer,Agentur für Kunstvermittlung GmbH,1,Other,Management
+184,Retired,;-),8,Other,Senior
+185,Application Specialist,BMG LABTECH,2,Other,Professional
+188,Executive Director / Head of UN Advocacy,International Campaign for Tibet,3,Human Resources,Director
+189,Project V&V Manager,Alstom,6,Project Management,Senior
+190,Rechtsanwalt | Counsel,Hausfeld,9,Other,Director
+191,Indigenous Counsellor & Case Manager - Niiwin Wendaanimak,Parkdale Queen West Community Health Centre,5,Consulting,Professional
+192,Bauleiter,Köster GmbH,1,Other,Professional
+193,Amministrazione,Centro diagnostico Pasteur,3,Other,Professional
+194,Head of Customer Sales Service & Sales Controlling,Graphic Packaging International - Europe,4,Sales,Lead
+196,Engineering Manager,ERCO,5,Other,Senior
+198,Retired but still active and interested in Optics Development and Metrology,No Company,9,Consulting,Senior
+199,Sales Consultant - Business Application,Microsoft,5,Business Development,Senior
+200,Senior Technical Consultant,Medtronic,8,Consulting,Senior
+201,Nurse Practitioner,Cleveland Clinic Connected Care,8,Other,Professional
+202,Packhouse Managing consultant,Kamps Sperziebonen,12,Consulting,Senior
+203,Verwaltungsrat,21iLAB,5,Other,Lead
+204,Development Manager,GOLDBECK,4,Project Management,Senior
+205,Vertriebsspezialist,Sto SE & Co. KGaA,1,Sales,Lead
+206,Rechtsanwalt,Freiberuflich,1,Other,Professional
+208,HW-Developer BU Motion,B&R Industrial Automation,3,Other,Management
+209,Head of Organization Projects and Facility Operations,Atlas Copco Holding GmbH,2,Other,Lead
+211,Head of Global Life Products,ERGO Group AG,9,Information Technology,Lead
+212,Investor,Benno Therapeutics,10,Other,Management
+213,Geschäftsführer,Muldental Elektronik GmbH,1,Other,Management
+214,Executive Assistant to the President,HICO CANADA INC.,6,Administrative,Senior
+216,Partner,Freshfields Bruckhaus Deringer,1,Other,Professional
+217,Webentwickler,Nolis GmbH,1,Consulting,Professional
+218,Director Construction & Engineering,GreenGaraGe GmbH,6,Project Management,Director
+220,Dekanatsrätin,Westsächsische Hochschule Zwickau,1,Other,Lead
+221,Mitarbeiter Produktmanagement,KIX Service Software GmbH,9,Other,Professional
+222,Manager | Prokurist | Strategie- und Managementberatung Financial Services,KPMG Deutschland,6,Other,Senior
+223,Head of Development,Fish Corb Films,3,Other,Lead
+224,Manager,OBSS,5,Other,Senior
+225,Chairman of the Board,Alteams Oy,10,Other,Management
+226,Stammdatenmanager R&D ENGINEERING / R&D,AL-KO Vehicle Technology Group,3,Information Technology,Senior
+227,aktiver Gesellschafter,Binder Gruppe,6,Other,Management
+228,Leiter Produktion / Mitinhaber,"Erich Keller AG - Innenausbau, Design + Technik",5,Sales,Lead
+229,Senior Manager,Seller Ventures,4,Other,Senior
+232,President,Benchmark Foam Inc,2,Other,Management
+233,Senior Brand Manager,Rust-Oleum Canada,7,Marketing,Senior
+235,Leiter Instandhaltung,Lipoid GmbH,4,Other,Lead
+236,Salesman,Saottini Auto,3,Sales,Professional
+237,Senior Human Resources Manager,SS&C Technologies,8,Human Resources,Senior
+239,Direktor,Sparkasse Schaumburg,2,Other,Professional
+240,Influencer Marketing Executive,KatKin,14,Marketing,Professional
+241,Unternehmensinhaber,Orthosteo Praxis,10,Other,Management
+242,Vizepräsident Junior,Woody-Display,1,Project Management,Junior
+243,Prokurist / Direktor Touristik,DERTOUR Austria GmbH,6,Marketing,Professional
+244,Kipper -Spedition,Gärtner Transporte,1,Consulting,Lead
+245,Pedagoga,Escola de Educação Infantil João e Maria,1,Other,Professional
+246,Behavioral Health Clinician,Butte County Behavioral Health,4,Consulting,Professional
+248,Web Developer,Superweb LLP,5,Information Technology,Professional
+249,Manager Custom Solutions,Hansgrohe Group,9,Project Management,Senior
+250,Responsable Développement Automotive,Tempo one,4,Other,Senior
+251,Projektmanager strat. BK E/E Infrastruktur,BMW Group,9,Project Management,Senior
+252,Responsable de projet marketing et communications,ILODECO,3,Marketing,Lead
+254,Vermittlung und Verrentung von Immobilien,BVFI - Bundesverband für die Immobilienwirtschaft,3,Other,Lead
+255,Approvisionneuse Bilingue,MANUFACTURE FRANCAISE DU CYCLE,9,Project Management,Professional
+256,Digital Product Owner,Doka,4,Information Technology,Management
+257,Head of Legal,Stellantis Germany GmbH,1,Other,Lead
+258,Receptionist,Van Cleef & Arpels,8,Other,Professional
+259,Retail Director DACH,S.OLIVER GROUP,9,Other,Director
+261,Chief Executive Officer,Varme og Kulde AS,2,Other,Management
+262,General Manager,F. Bosch Medizintechnik Germany,2,Other,Senior
+264,Purser,Lufthansa,2,Purchasing,Professional
+265,Vorstandsvorsitzender,LAG Inklusionsfirmen Hessen e. V.,10,Other,Management
+266,Associate | M&A,PwC Deutschland,7,Administrative,Junior
+267,VP - Talent Acquisition & People & Culture(HR),HighRadius,7,Marketing,Management
+268,Partner,Andersch,3,Other,Professional
+269,Senior Vice President R&D,WashTec AG,6,Other,Management
+272,Industriereiniger,Lobbe,2,Other,Lead
+273,CEO,Garden of Concepts GmbH,12,Other,Management
+275,Senior Vice President Global Supplier Management,PALFINGER Group,3,Other,Senior
+276,Sr. International Agent,FedEx,4,Other,Professional
+277,Manager- Hr Ops & Talent Acquisition,Parangat Technologies,5,Other,Management
+278,CEO,PaxAn®,4,Other,Management
+280,Production Engineer,VERWO AG,8,Other,Management
+281,Quality Engineering Manager,Fluke Corporation,8,Project Management,Senior
+283,Vertriebsleiter,OÖNachrichten,5,Sales,Lead
+284,Produktmanager,Erwin Renz Metallwarenfabrik GmbH & Co KG,5,Other,Senior
+285,Partner und Inhaber,cr Werbeagentur AG,3,Other,Management
+286,Senior Advisor,"US Trade Consult, LLC.",9,Consulting,Senior
+287,Hockey Coach,HK Spartak Dubnica nad Vahom,9,Other,Professional
+288,Quality Assurance Manager / Quality Contract Managment / GMP Auditor,Siegfried Hameln,1,Other,Senior
+289,SVP Transformation & Strategy,Drooms,6,Information Technology,Management
+291,"Director, Sales Unit Benelux",Uponor GmbH,10,Sales,Director
+292,Strategischer Einkäufer,Deutsches Zentrum für Luft-und Raumfahrt e.V.,16,Purchasing,Management
+293,VP Market Intelligence - Business Development - Sales,Atlas Copco,2,Sales,Management
+294,Director / Project implementation Manager,Outotec,1,Project Management,Director
+295,Aktionär,Swiss-Canna Group AG,8,Other,Management
+296,Werkstudent Facheinkauf Interieur,BMW Group,5,Other,Junior
+297,Account Director,GKN Driveline,1,Sales,Director
+298,Head teacher in art,Sigtuna folkhögskola,9,Project Management,Professional
+299,Chef,Verlag Reinhard Wagner,2,Other,Professional
+300,Geschäftsführer,WISAG Passage Service Düsseldorf GmbH & Co. KG,9,Other,Management
+301,General Manager,BOTTERO GmbH,8,Other,Senior
+302,Spa Concierge,Woodhouse,3,Other,Senior
+305,Geschäftsführender Gesellschafter,neusta marketing GmbH,4,Other,Management
+306,Account-Manager,Nestler Wellpappe GmbH,2,Sales,Senior
+307,Head of Digital Radio Design,Ericsson,8,Information Technology,Lead
+308,Assistent,Amaris Zorggroep,2,Administrative,Junior
+309,Polizistin,Polizei Oberes Fricktal,2,Marketing,Lead
+310,Managing Partner,FINVIA,3,Other,Senior
+311,Global Product Marketing Manager,Dotdigital,5,Marketing,Senior
+315,Produktingenieur,Spherea GmbH,7,Other,Professional
+320,Vorstand / CEO bei Eberhard AG,Eberhard AG,8,Sales,Management
+321,Projektingenieur,Muhsau Kindl Ingenieurgesellschaft mbH,3,Project Management,Professional
+322,Managing Partner,MDW Capital Partners LLP,18,Other,Senior
+323,Geschäftsführender Gesellschafter,GfA-DICHTUNGEN GMBH,1,Other,Management
+324,SVP 3DS-Solutions CENIT Group,KEONYS,13,Information Technology,Management
+325,Senior Vice President APAC,Venus Concept,5,Other,Management
+327,CEO Co-owner,Planet-A-Mor,20,Other,Management
+328,Business Strategy Consultant,Accenture,4,Business Development,Senior
+329,Managing Director,UTILITY PARTNERS Operations,8,Other,Director
+330,Recreation Manager,Tahoe Donner Association,12,Other,Senior
+331,Stiftungsrat,Fair Recycling Foundation,17,Other,Professional
+334,Projektplaner,Sto SE & Co. KGaA,5,Project Management,Lead
+335,Senior Manager,MorganFranklin Consulting,9,Other,Senior
+336,Information Technology Specialist -ITCS,Hyatt Hotels Corporation,6,Other,Senior
+338,Geschäftsführender Inhaber,auxilion AG,1,Other,Management
+339,Gebietsverkaufsleiterin Implantologie & Prothetik,ZERAMEX,3,Marketing,Lead
+342,Vice President,Toshiba Memory Europe GmbH (TME),1,Other,Management
+343,Senior Vice President,SFC Energy AG,11,Other,Management
+344,Platin,WorldStyle Media,1,Other,Professional
+347,Executive Partner Development Manager,Huawei,8,Other,Senior
+348,Departementssekretär / Leiter Amt für Militär und Bevölkerungsschutz,"Justiz-, Polizei- und Militärdepartement Kanton Appenzell I.Rh",2,Human Resources,Lead
+350,CEO,Batterman Consulting,1,Other,Management
+351,Partner,Bridgged,6,Other,Professional
+352,Chief Executive Officer,ManageCasa Inc.,10,Other,Management
+353,Arbeitssuche,Bewerbungsphase,2,Other,Professional
+355,Managing Director,SPOCS sports consultants GmbH,2,Other,Director
+356,Head of Global Competence Center MO/BO/Acc Business Analysis,UniCredit Business Integrated Solutions,2,Business Development,Lead
+358,Alleiniger Vorstand,EJF gemeinnützige AG,8,Other,Management
+359,Senior Software Engineer,Math2Market GmbH,7,Information Technology,Senior
+360,Owner - Executive Director,Chikara Fitness 株式会社,5,Other,Director
+361,Projektleiter,Aurubis,4,Project Management,Lead
+362,Leiter Program Management RADAR,Continental,1,Customer Support,Lead
+363,Geschäftsführer,capital-S-Immobilien,2,Other,Management
+364,Pharmacy Sales Representative,Bayer,6,Sales,Senior
+365,Bereichsleiter Finanzen und Rechnungswesen,SachsenEnergie AG,4,Other,Lead
+367,"Geschäftsleitung, Prokurist",Leop. Siegle GmbH & Co. KG,2,Other,Management
+368,Sales Manager,Guild Mortgage,8,Sales,Senior
+369,Industrial Engineer,PI (Physik Instrumente) Group,2,Other,Senior
+370,Pflegedienstleitung,Pflege & Seniorenwohnen Ammertal,7,Other,Lead
+371,Principal Consultant,Lindner Corporation,8,Consulting,Senior
+372,"Projektexperte Sicherheit, Geschäftsleitung",EPRO SECURE,2,Project Management,Lead
+374,Solution Designer,K-Businesscom AG,1,Project Management,Professional
+375,Founder -Owner,TransatlantiX,12,Other,Management
+376,Human Resources Manager,TaxNetworkUSA,3,Human Resources,Senior
+377,Einkäufer Werkleistungen/Diestleistugen,Bilfinger Maintenance GmbH,2,Purchasing,Junior
+379,Regional Manager,R.A. Snyder Properties,10,Other,Senior
+380,Head of Hybrid Cloud Solution Sales Germany,Hewlett Packard Enterprise,2,Sales,Lead
+381,Director - Global Banking,BNP Paribas CIB,7,Other,Director
+382,Doctoral Student,ETH Zürich,5,Other,Junior
+383,Project Manager Entwicklung /Lebensmittel,Nestle,2,Project Management,Senior
+384,Consultant,Freiberuflich,10,Consulting,Professional
+385,General Counsel / Leiter Rechtsabteilung,Random House,5,Other,Director
+386,Team Lead Business Services,Heel,7,Business Development,Lead
+387,CEO & Co-founder,SitePlan GmbH,4,Other,Management
+388,Juristischer Berater,Euler Hermes Deutschland,1,Consulting,Professional
+389,"Leitung Personal, Finanzen, Einkauf, IT | Folkwang Universität der Künste",Folkwang Universität der Künste,4,Other,Lead
