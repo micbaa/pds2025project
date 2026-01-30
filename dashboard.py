@@ -15,6 +15,8 @@ results = pd.DataFrame({
         "bow_and_emb_with_extended_v2 (2).ipynb",
         "model_pipeline_extended Kopie.ipynb",
         "Hai_PDSfinalproject_data.ipynb",
+        "Hai_PDSfinalproject_data.ipynb",
+        "Hai_PDSfinalproject_data.ipynb",
     ],
     "Approach": [
         "XLM-RoBERTa Fine-tuning",
@@ -22,13 +24,15 @@ results = pd.DataFrame({
         "Embeddings + Logistic Regression",
         "Self-Training (Pseudo-labels)",
         "Career Heuristics",
-        "Rule-based + BoW",
+        "Rule-based (baseline)",
+        "Embeddings (no threshold)",
+        "Embeddings (with threshold)",
     ],
-    "Department Accuracy": [0.40, 0.40, 0.40, 0.70, 0.56, 0.62],
-    "Department Recall": [0.51, 0.48, 0.48, 0.59, 0.25, 0.42],
-    "Seniority Accuracy": [0.42, 0.40, 0.40, 0.63, 0.37, 0.56],
-    "Seniority Recall": [0.62, 0.58, 0.58, 0.64, 0.30, 0.52],
-    "ML Model": ["Yes", "Yes", "Yes", "Yes", "Partial", "Partial"],
+    "Department Accuracy": [0.40, 0.40, 0.40, 0.70, 0.56, 0.19, 0.35, 0.59],
+    "Department Recall": [0.51, 0.48, 0.48, 0.59, 0.29, 0.29, 0.43, 0.52],
+    "Seniority Accuracy": [0.42, 0.40, 0.40, 0.63, 0.37, 0.26, 0.37, 0.52],
+    "Seniority Recall": [0.62, 0.58, 0.58, 0.64, 0.29, 0.43, 0.61, 0.65],
+    "ML Model": ["Yes", "Yes", "Yes", "Yes", "Partial", "No", "Yes", "Yes"],
 })
 
 # Summary metrics
@@ -134,9 +138,23 @@ with st.expander("Career Heuristics"):
     - **Issue:** Heuristics don't generalize well
     """)
 
-with st.expander("Rule-based + BoW"):
+with st.expander("Rule-based (baseline)"):
     st.markdown("""
-    - **Model:** Keyword matching + BoW fallback
-    - **Training:** Mix of rules and ML
-    - **Issue:** Low coverage from rules (~25%)
+    - **Model:** Predefined keyword matching
+    - **Training:** No training, just rules
+    - **Issue:** Low coverage (~25%), misses most titles
+    """)
+
+with st.expander("Embeddings (no threshold)"):
+    st.markdown("""
+    - **Model:** Sentence embeddings + Logistic Regression
+    - **Training:** Trained on v2 label data
+    - **Issue:** No confidence handling for ambiguous titles
+    """)
+
+with st.expander("Embeddings (with threshold)"):
+    st.markdown("""
+    - **Model:** Sentence embeddings + Logistic Regression + confidence thresholds
+    - **Training:** Trained on v2 label data with threshold tuning
+    - **Benefit:** Falls back to "Other"/"Professional" when uncertain
     """)
