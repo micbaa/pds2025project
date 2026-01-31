@@ -7,6 +7,7 @@ st.set_page_config(page_title="Job Title Classification - Model Comparison", lay
 st.title("Job Title Classification Dashboard")
 
 # Model results data - grouped by approach type
+# When updating beware of the order. Since everything is hardcoded
 results = pd.DataFrame({
     "Approach Type": [
         # BoW
@@ -24,6 +25,8 @@ results = pd.DataFrame({
         "Emb + Extended",
         # BoW with extended
         "BoW + Extended",
+        # Career Heuristics
+        "Career Heuristics",
     ],
     "Method": [
         # BoW
@@ -41,6 +44,8 @@ results = pd.DataFrame({
         "v2 (capped 400) + BOW (both TH) + mpnet 70/30 + LR",
         # BoW with extended
         "v2 (capped 500) + Emb (both TH) + 80/20 + TF-IDF char n-grams (3,5) + LR",
+        # Career Heuristics
+        "Embeddings + LR + 5 heuristics",
     ],
     "Notebook": [
         # BoW
@@ -58,6 +63,8 @@ results = pd.DataFrame({
         "Data_Insights (1).ipynb",
         # BoW with extended
         "Data_Insights (1).ipynb",
+        # Career Heuristics
+        "model_pipeline_extended.ipynb",
     ],
     "Seniority Accuracy": [
         # BoW
@@ -75,6 +82,8 @@ results = pd.DataFrame({
         0.5709,
         # BoW with extended
         0.60,
+        # Career Heuristics
+        0.366,
     ],
     "Seniority Recall": [
         # BoW
@@ -92,6 +101,8 @@ results = pd.DataFrame({
         0.6232,
         # BoW with extended
         0.67,
+        # Career Heuristics
+        0.292,
     ],
     "Department Accuracy": [
         # BoW
@@ -109,6 +120,8 @@ results = pd.DataFrame({
         0.6903,
         # BoW with extended
         0.63,
+        # Career Heuristics
+        0.559,
     ],
     "Department Recall": [
         # BoW
@@ -126,6 +139,8 @@ results = pd.DataFrame({
         0.5709,
         # BoW with extended
         0.50,
+        # Career Heuristics
+        0.289,
     ],
 })
 
@@ -169,7 +184,7 @@ st.divider()
 
 # Comparison charts
 st.header("Model Comparison")
-
+#tabs can be expanded maybe F1 etc
 tab1, tab2 = st.tabs(["Accuracy", "Recall"])
 
 with tab1:
@@ -226,6 +241,7 @@ for approach in filtered_results["Approach Type"].unique():
         ]
         st.dataframe(
             subset.style.format({
+                #lambdas in order to ensure possible N/A
                 "Seniority Accuracy": lambda x: f"{x:.1%}" if pd.notna(x) else "-",
                 "Seniority Recall": lambda x: f"{x:.1%}" if pd.notna(x) else "-",
                 "Department Accuracy": lambda x: f"{x:.1%}" if pd.notna(x) else "-",
@@ -274,4 +290,11 @@ with st.expander("BoW + Extended (Self-Training with BoW)"):
     - **Model:** TF-IDF character n-grams + Logistic Regression
     - **Training:** v2 data (capped 500) + pseudo-labeled LinkedIn data from Embeddings predictions
     - **Best results for Seniority classification**
+    """)
+
+with st.expander("Career Heuristics"):
+    st.markdown("""
+    - **Model:** Sentence embeddings + Logistic Regression + 5 heuristic rules
+    - **Heuristics:** Department consistency, seniority trajectory, organization context, career length, position count
+    - **Result:** Minimal improvement (+1% dept, +0.2% seniority) — career paths are too messy for rigid rules
     """)
