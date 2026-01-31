@@ -116,7 +116,7 @@ results = pd.DataFrame({
         0.4105,
         0.5963,
         # Emb with extended
-        0.6914,
+        0.6994,
         0.6903,
         # BoW with extended
         0.63,
@@ -135,7 +135,7 @@ results = pd.DataFrame({
         0.5555,
         0.4789,
         # Emb with extended
-        0.5748,
+        0.5836,
         0.5709,
         # BoW with extended
         0.50,

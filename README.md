@@ -19,7 +19,7 @@ Given a job title like "Senior Softwareentwickler" or "Geschäftsführer", predi
 
 | Task | Best Accuracy | Best Recall | Best Approach |
 |------|---------------|-------------|---------------|
-| Department | 69.1% | 57.5% | Embeddings + Self-Training |
+| Department | 69.9% | 58.4% | Embeddings + Self-Training |
 | Seniority | 60.0% | 67.0% | BoW + Self-Training |
 
 ## Project Structure
@@ -89,7 +89,7 @@ The key insight: training data (v2) doesn't represent LinkedIn vocabulary. Self-
 **Results:**
 | Variant | Dept Accuracy | Dept Recall | Sen Accuracy | Sen Recall |
 |---------|---------------|-------------|--------------|------------|
-| Emb + Extended (capped 500) | 69.1% | 57.5% | 57.4% | 63.0% |
+| Emb + Extended (capped 500) | 69.9% | 58.4% | 57.4% | 63.0% |
 | BoW + Extended (capped 500) | 63.0% | 50.0% | 60.0% | 67.0% |
 
 ### 5. Career History Heuristics
@@ -192,3 +192,10 @@ scipy
 - Ensemble approaches: combine BoW and Embeddings predictions
 - Investigate per-class thresholds for better precision/recall trade-offs
 - Collect more labeled LinkedIn data to reduce domain shift
+
+**Dashboard extensions:**
+- Upload unannotated JSON files and get predicted department/seniority for each job title
+- Export predictions as CSV
+- Show per-class precision/recall breakdown
+- Compare predictions across multiple models side-by-side
+- Visualize confidence scores for predictions
