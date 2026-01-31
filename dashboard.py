@@ -6,48 +6,164 @@ st.set_page_config(page_title="Job Title Classification - Model Comparison", lay
 
 st.title("Job Title Classification Dashboard")
 
-# Model results data
+# Model results data - grouped by approach type
 results = pd.DataFrame({
+    "Approach Type": [
+        # BoW
+        "BoW",
+        "BoW",
+        "BoW",
+        # XLM-R
+        "XLM-R",
+        "XLM-R",
+        # Embeddings
+        "Embeddings",
+        "Embeddings",
+        # Emb with extended
+        "Emb + Extended",
+        "Emb + Extended",
+        # BoW with extended
+        "BoW + Extended",
+    ],
+    "Method": [
+        # BoW
+        "TF-IDF char n-grams (3,5) + LR",
+        "TF-IDF char_wb (3,5) + LR + threshold (0.50)",
+        "TF-IDF char n-grams (3,5) + LR + threshold (0.40) → Other",
+        # XLM-R
+        "seniority-v2 90/10, 3 epochs (no threshold)",
+        "seniority-v2 90/10, 3 epochs + threshold 0.55 → Professional",
+        # Embeddings
+        "mpnet-base-v2 50/50 + LR",
+        "mpnet-base-v2 50/50 + LR + threshold",
+        # Emb with extended
+        "v2 (capped 500) + BOW (both TH) + mpnet 70/30 + LR",
+        "v2 (capped 400) + BOW (both TH) + mpnet 70/30 + LR",
+        # BoW with extended
+        "v2 (capped 500) + Emb (both TH) + 80/20 + TF-IDF char n-grams (3,5) + LR",
+    ],
     "Notebook": [
-        "pretrained_finetuned_xlmr_model.ipynb",
-        "BoW_Models (1).ipynb",
-        "Embeddings_Model.ipynb",
-        "bow_and_emb_with_extended_v2 (2).ipynb",
-        "model_pipeline_extended Kopie.ipynb",
-        "Hai_PDSfinalproject_data.ipynb",
-        "Hai_PDSfinalproject_data.ipynb",
-        "Hai_PDSfinalproject_data.ipynb",
+        # BoW
+        "Bag_of_Words_Models.ipynb",
+        "Bag_of_Words_Models.ipynb",
+        "Bag_of_Words_Models.ipynb",
+        # XLM-R
+        "finetuned_xlmr_models.ipynb",
+        "finetuned_xlmr_models.ipynb",
+        # Embeddings
+        "Bag_of_Words_Models.ipynb",
+        "Bag_of_Words_Models.ipynb",
+        # Emb with extended
+        "Data_Insights (1).ipynb",
+        "Data_Insights (1).ipynb",
+        # BoW with extended
+        "Data_Insights (1).ipynb",
     ],
-    "Approach": [
-        "XLM-RoBERTa Fine-tuning",
-        "BoW + Logistic Regression",
-        "Embeddings + Logistic Regression",
-        "Self-Training (Pseudo-labels)",
-        "Career Heuristics",
-        "Rule-based (baseline)",
-        "Embeddings (no threshold)",
-        "Embeddings (with threshold)",
+    "Seniority Accuracy": [
+        # BoW
+        0.3582,
+        0.5679,
+        None,
+        # XLM-R
+        0.3772,
+        0.3901,
+        # Embeddings
+        0.3999,
+        0.5402,
+        # Emb with extended
+        0.5743,
+        0.5709,
+        # BoW with extended
+        0.60,
     ],
-    "Department Accuracy": [0.40, 0.40, 0.40, 0.70, 0.56, 0.19, 0.35, 0.59],
-    "Department Recall": [0.51, 0.48, 0.48, 0.59, 0.29, 0.29, 0.43, 0.52],
-    "Seniority Accuracy": [0.42, 0.40, 0.40, 0.63, 0.37, 0.26, 0.37, 0.52],
-    "Seniority Recall": [0.62, 0.58, 0.58, 0.64, 0.29, 0.43, 0.61, 0.65],
-    "ML Model": ["Yes", "Yes", "Yes", "Yes", "Partial", "No", "Yes", "Yes"],
+    "Seniority Recall": [
+        # BoW
+        0.56,
+        0.60,
+        None,
+        # XLM-R
+        0.6189,
+        0.6233,
+        # Embeddings
+        0.6505,
+        0.6391,
+        # Emb with extended
+        0.6297,
+        0.6232,
+        # BoW with extended
+        0.67,
+    ],
+    "Department Accuracy": [
+        # BoW
+        0.3302,
+        None,
+        0.6660,
+        # XLM-R
+        None,
+        None,
+        # Embeddings
+        0.4105,
+        0.5963,
+        # Emb with extended
+        0.6914,
+        0.6903,
+        # BoW with extended
+        0.63,
+    ],
+    "Department Recall": [
+        # BoW
+        0.47,
+        None,
+        0.48,
+        # XLM-R
+        None,
+        None,
+        # Embeddings
+        0.5555,
+        0.4789,
+        # Emb with extended
+        0.5748,
+        0.5709,
+        # BoW with extended
+        0.50,
+    ],
 })
+
+# Sidebar filter
+st.sidebar.header("Filters")
+approach_types = st.sidebar.multiselect(
+    "Select Approach Types",
+    options=results["Approach Type"].unique(),
+    default=results["Approach Type"].unique()
+)
+
+filtered_results = results[results["Approach Type"].isin(approach_types)]
 
 # Summary metrics
 st.header("Best Results")
 col1, col2, col3, col4 = st.columns(4)
 
-best_dept_acc = results.loc[results["Department Accuracy"].idxmax()]
-best_dept_rec = results.loc[results["Department Recall"].idxmax()]
-best_sen_acc = results.loc[results["Seniority Accuracy"].idxmax()]
-best_sen_rec = results.loc[results["Seniority Recall"].idxmax()]
+# Filter out None values for finding best
+dept_acc_valid = filtered_results.dropna(subset=["Department Accuracy"])
+dept_rec_valid = filtered_results.dropna(subset=["Department Recall"])
+sen_acc_valid = filtered_results.dropna(subset=["Seniority Accuracy"])
+sen_rec_valid = filtered_results.dropna(subset=["Seniority Recall"])
 
-col1.metric("Best Dept Accuracy", f"{best_dept_acc['Department Accuracy']:.0%}", best_dept_acc["Approach"])
-col2.metric("Best Dept Recall", f"{best_dept_rec['Department Recall']:.0%}", best_dept_rec["Approach"])
-col3.metric("Best Sen Accuracy", f"{best_sen_acc['Seniority Accuracy']:.0%}", best_sen_acc["Approach"])
-col4.metric("Best Sen Recall", f"{best_sen_rec['Seniority Recall']:.0%}", best_sen_rec["Approach"])
+if not dept_acc_valid.empty:
+    best_dept_acc = dept_acc_valid.loc[dept_acc_valid["Department Accuracy"].idxmax()]
+    col1.metric("Best Dept Accuracy", f"{best_dept_acc['Department Accuracy']:.1%}", best_dept_acc["Approach Type"])
+
+if not dept_rec_valid.empty:
+    best_dept_rec = dept_rec_valid.loc[dept_rec_valid["Department Recall"].idxmax()]
+    col2.metric("Best Dept Recall", f"{best_dept_rec['Department Recall']:.1%}", best_dept_rec["Approach Type"])
+
+if not sen_acc_valid.empty:
+    best_sen_acc = sen_acc_valid.loc[sen_acc_valid["Seniority Accuracy"].idxmax()]
+    col3.metric("Best Sen Accuracy", f"{best_sen_acc['Seniority Accuracy']:.1%}", best_sen_acc["Approach Type"])
+
+if not sen_rec_valid.empty:
+    best_sen_rec = sen_rec_valid.loc[sen_rec_valid["Seniority Recall"].idxmax()]
+    col4.metric("Best Sen Recall", f"{best_sen_rec['Seniority Recall']:.1%}", best_sen_rec["Approach Type"])
 
 st.divider()
 
@@ -57,104 +173,105 @@ st.header("Model Comparison")
 tab1, tab2 = st.tabs(["Accuracy", "Recall"])
 
 with tab1:
-    fig_acc = px.bar(
-        results.melt(id_vars=["Approach"], value_vars=["Department Accuracy", "Seniority Accuracy"]),
-        x="Approach",
-        y="value",
-        color="variable",
-        barmode="group",
-        labels={"value": "Accuracy", "variable": "Task"},
-        title="Accuracy by Model and Task",
-    )
-    fig_acc.update_layout(xaxis_tickangle=-45, yaxis_tickformat=".0%")
-    st.plotly_chart(fig_acc, use_container_width=True)
+    chart_data = filtered_results.melt(
+        id_vars=["Method", "Approach Type"],
+        value_vars=["Department Accuracy", "Seniority Accuracy"],
+        var_name="Task",
+        value_name="Accuracy"
+    ).dropna()
+
+    if not chart_data.empty:
+        fig_acc = px.bar(
+            chart_data,
+            x="Method",
+            y="Accuracy",
+            color="Task",
+            barmode="group",
+            hover_data=["Approach Type"],
+            title="Accuracy by Model and Task",
+        )
+        fig_acc.update_layout(xaxis_tickangle=-45, yaxis_tickformat=".0%")
+        st.plotly_chart(fig_acc, use_container_width=True)
 
 with tab2:
-    fig_rec = px.bar(
-        results.melt(id_vars=["Approach"], value_vars=["Department Recall", "Seniority Recall"]),
-        x="Approach",
-        y="value",
-        color="variable",
-        barmode="group",
-        labels={"value": "Macro Recall", "variable": "Task"},
-        title="Macro Recall by Model and Task",
-    )
-    fig_rec.update_layout(xaxis_tickangle=-45, yaxis_tickformat=".0%")
-    st.plotly_chart(fig_rec, use_container_width=True)
+    chart_data = filtered_results.melt(
+        id_vars=["Method", "Approach Type"],
+        value_vars=["Department Recall", "Seniority Recall"],
+        var_name="Task",
+        value_name="Recall"
+    ).dropna()
+
+    if not chart_data.empty:
+        fig_rec = px.bar(
+            chart_data,
+            x="Method",
+            y="Recall",
+            color="Task",
+            barmode="group",
+            hover_data=["Approach Type"],
+            title="Macro Recall by Model and Task",
+        )
+        fig_rec.update_layout(xaxis_tickangle=-45, yaxis_tickformat=".0%")
+        st.plotly_chart(fig_rec, use_container_width=True)
 
 st.divider()
 
-# Results table
+# Results table grouped by approach type
 st.header("Detailed Results")
-st.dataframe(
-    results.style.format({
-        "Department Accuracy": "{:.0%}",
-        "Department Recall": "{:.0%}",
-        "Seniority Accuracy": "{:.0%}",
-        "Seniority Recall": "{:.0%}",
-    }).background_gradient(subset=["Department Accuracy", "Department Recall", "Seniority Accuracy", "Seniority Recall"], cmap="Greens"),
-    use_container_width=True,
-    hide_index=True,
-)
+
+for approach in filtered_results["Approach Type"].unique():
+    with st.expander(f"**{approach}**", expanded=True):
+        subset = filtered_results[filtered_results["Approach Type"] == approach][
+            ["Method", "Notebook", "Seniority Accuracy", "Seniority Recall", "Department Accuracy", "Department Recall"]
+        ]
+        st.dataframe(
+            subset.style.format({
+                "Seniority Accuracy": lambda x: f"{x:.1%}" if pd.notna(x) else "-",
+                "Seniority Recall": lambda x: f"{x:.1%}" if pd.notna(x) else "-",
+                "Department Accuracy": lambda x: f"{x:.1%}" if pd.notna(x) else "-",
+                "Department Recall": lambda x: f"{x:.1%}" if pd.notna(x) else "-",
+            }),
+            use_container_width=True,
+            hide_index=True,
+        )
 
 st.divider()
 
 # Approach explanations
 st.header("Approach Descriptions")
 
-with st.expander("XLM-RoBERTa Fine-tuning"):
+with st.expander("BoW (Bag of Words)"):
+    st.markdown("""
+    - **Model:** TF-IDF vectorizer (words or character n-grams) + Logistic Regression
+    - **Training:** Trained on v2 label data
+    - **Variants:** Different n-gram ranges, with/without confidence thresholds
+    """)
+
+with st.expander("XLM-R (Transformer Fine-tuning)"):
     st.markdown("""
     - **Model:** `xlm-roberta-base` transformer
-    - **Training:** Fine-tuned on v2 label data
-    - **Issue:** Poor domain adaptation to LinkedIn titles
+    - **Training:** Fine-tuned on seniority-v2 data (90/10 split, 3 epochs)
+    - **Variants:** With/without thresholding to "Professional"
     """)
 
-with st.expander("BoW + Logistic Regression"):
+with st.expander("Embeddings"):
     st.markdown("""
-    - **Model:** TF-IDF vectorizer + Logistic Regression
-    - **Training:** Trained on v2 label data only
-    - **Issue:** Limited vocabulary, no multilingual understanding
+    - **Model:** `paraphrase-multilingual-mpnet-base-v2` sentence embeddings + Logistic Regression
+    - **Training:** Trained on v2 label data (50/50 split)
+    - **Variants:** With/without confidence thresholds
     """)
 
-with st.expander("Embeddings + Logistic Regression"):
-    st.markdown("""
-    - **Model:** `paraphrase-multilingual-mpnet-base-v2` embeddings + Logistic Regression
-    - **Training:** Trained on v2 label data only
-    - **Benefit:** Multilingual support
-    """)
-
-with st.expander("Self-Training (Pseudo-labels) - BEST"):
-    st.markdown("""
-    - **Model:** BoW/Embeddings + Logistic Regression
-    - **Training:** v2 data + pseudo-labeled LinkedIn data (1,886 titles)
-    - **Key insight:** Model learns LinkedIn vocabulary through self-training
-    - **Result:** Best accuracy (70% dept, 63% seniority)
-    """)
-
-with st.expander("Career Heuristics"):
-    st.markdown("""
-    - **Model:** Embeddings + Logistic Regression + handwritten rules
-    - **Rules:** Career trajectory, org patterns, experience length
-    - **Issue:** Heuristics don't generalize well
-    """)
-
-with st.expander("Rule-based (baseline)"):
-    st.markdown("""
-    - **Model:** Predefined keyword matching
-    - **Training:** No training, just rules
-    - **Issue:** Low coverage (~25%), misses most titles
-    """)
-
-with st.expander("Embeddings (no threshold)"):
+with st.expander("Emb + Extended (Self-Training with Embeddings)"):
     st.markdown("""
     - **Model:** Sentence embeddings + Logistic Regression
-    - **Training:** Trained on v2 label data
-    - **Issue:** No confidence handling for ambiguous titles
+    - **Training:** v2 data (capped 400-500) + pseudo-labeled LinkedIn data from BoW predictions
+    - **Key insight:** Self-training helps model learn LinkedIn vocabulary
+    - **Best results for Department classification**
     """)
 
-with st.expander("Embeddings (with threshold)"):
+with st.expander("BoW + Extended (Self-Training with BoW)"):
     st.markdown("""
-    - **Model:** Sentence embeddings + Logistic Regression + confidence thresholds
-    - **Training:** Trained on v2 label data with threshold tuning
-    - **Benefit:** Falls back to "Other"/"Professional" when uncertain
+    - **Model:** TF-IDF character n-grams + Logistic Regression
+    - **Training:** v2 data (capped 500) + pseudo-labeled LinkedIn data from Embeddings predictions
+    - **Best results for Seniority classification**
     """)

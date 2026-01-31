@@ -30,6 +30,9 @@ Thumbs.db
 ~$*
 *.textClipping
 
+# Virtual environment
+.venv/
+
 # Model files (large)
 *.joblib
 *.pkl
