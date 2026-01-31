@@ -25,12 +25,11 @@ Given a job title like "Senior Softwareentwickler" or "Geschäftsführer", predi
 ## Project Structure
 
 ```
-├── notebooks/
-│   ├── Bag_of_Words_Models.ipynb      # TF-IDF + Logistic Regression experiments
-│   ├── finetuned_xlmr_models.ipynb    # XLM-RoBERTa transformer fine-tuning
-│   ├── Data_Insights (1).ipynb        # Self-training with pseudo-labels (best results)
-│   ├── Hai_PDSfinalproject_data.ipynb # Rule-based + Embeddings experiments
-│   └── model_pipeline_extended Kopie.ipynb  # Career history heuristics
+├── Bag_of_Words_Models.ipynb          # TF-IDF + Logistic Regression experiments
+├── finetuned_xlmr_models.ipynb        # XLM-RoBERTa transformer fine-tuning
+├── Data_Insights (1).ipynb            # Self-training with pseudo-labels (best results)
+├── Hai_PDSfinalproject_data.ipynb     # Rule-based + Embeddings experiments
+├── model_pipeline_extended Kopie.ipynb # Career history heuristics
 │
 ├── Old Models/                    # Previous notebook versions
 │
@@ -187,10 +186,9 @@ lets-plot
 scipy
 ```
 
-## Future Improvements
+## Future Work
 
-- Use larger multilingual models (mBERT, XLM-R large)
-- Active learning: select most uncertain samples for human labeling
-- Add more training data for underrepresented classes
-- Ensemble multiple approaches
-- Use LLMs (Claude, GPT) for zero-shot classification
+- Add more training data for underrepresented classes ("Professional" seniority, minority departments)
+- Ensemble approaches: combine BoW and Embeddings predictions
+- Investigate per-class thresholds for better precision/recall trade-offs
+- Collect more labeled LinkedIn data to reduce domain shift
