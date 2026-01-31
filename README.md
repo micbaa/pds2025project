@@ -29,7 +29,7 @@ Given a job title like "Senior Softwareentwickler" or "Geschäftsführer", predi
 ├── finetuned_xlmr_models.ipynb        # XLM-RoBERTa transformer fine-tuning
 ├── Data_Insights (1).ipynb            # Self-training with pseudo-labels (best results)
 ├── Hai_PDSfinalproject_data.ipynb     # Rule-based + Embeddings experiments
-├── model_pipeline_extended Kopie.ipynb # Career history heuristics
+├── model_pipeline_extended.ipynb # Career history heuristics
 │
 ├── Old Models/                    # Previous notebook versions
 │
@@ -93,7 +93,7 @@ The key insight: training data (v2) doesn't represent LinkedIn vocabulary. Self-
 | BoW + Extended (capped 500) | 63.0% | 50.0% | 60.0% | 67.0% |
 
 ### 5. Career History Heuristics
-**Notebook:** `model_pipeline_extended Kopie.ipynb`
+**Notebook:** `model_pipeline_extended.ipynb`
 
 Attempted to improve predictions using career context:
 - Department consistency across career
