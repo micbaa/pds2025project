@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
+import numpy as np
+from pathlib import Path
+import joblib
 
 st.set_page_config(page_title="Job Title Classification - Model Comparison", layout="wide")
 
@@ -13,8 +17,8 @@ results = pd.DataFrame({
         # BoW
         "BoW",
         "BoW",
-        "BoW",
         # XLM-R
+        "XLM-R",
         "XLM-R",
         "XLM-R",
         # Embeddings
@@ -30,12 +34,12 @@ results = pd.DataFrame({
     ],
     "Method": [
         # BoW
-        "TF-IDF char n-grams (3,5) + LR",
-        "TF-IDF char_wb (3,5) + LR + threshold (0.50)",
+        "TF-IDF char_wb (3,5) + LR + tailored threshold (0.50; Senior 0.97)",
         "TF-IDF char n-grams (3,5) + LR + threshold (0.40) → Other",
         # XLM-R
-        "seniority-v2 90/10, 3 epochs (no threshold)",
-        "seniority-v2 90/10, 3 epochs + threshold 0.55 → Professional",
+        "90/10, 3 epochs (no threshold)",
+        "threshold 0.55 → Professional",
+        "general + tailored per-class thresholds (junior, senior)",
         # Embeddings
         "mpnet-base-v2 50/50 + LR",
         "mpnet-base-v2 50/50 + LR + threshold",
@@ -51,8 +55,8 @@ results = pd.DataFrame({
         # BoW
         "Bag_of_Words_Models.ipynb",
         "Bag_of_Words_Models.ipynb",
-        "Bag_of_Words_Models.ipynb",
         # XLM-R
+        "finetuned_xlmr_models.ipynb",
         "finetuned_xlmr_models.ipynb",
         "finetuned_xlmr_models.ipynb",
         # Embeddings
@@ -68,12 +72,12 @@ results = pd.DataFrame({
     ],
     "Seniority Accuracy": [
         # BoW
-        0.3582,
-        0.5679,
+        0.6497,
         None,
         # XLM-R
         0.3772,
         0.3901,
+        0.4591,
         # Embeddings
         0.3999,
         0.5402,
@@ -87,12 +91,12 @@ results = pd.DataFrame({
     ],
     "Seniority Recall": [
         # BoW
-        0.56,
-        0.60,
+        0.59,
         None,
         # XLM-R
         0.6189,
         0.6233,
+        0.6426,
         # Embeddings
         0.6505,
         0.6391,
@@ -106,10 +110,10 @@ results = pd.DataFrame({
     ],
     "Department Accuracy": [
         # BoW
-        0.3302,
         None,
         0.6660,
         # XLM-R
+        None,
         None,
         None,
         # Embeddings
@@ -119,16 +123,16 @@ results = pd.DataFrame({
         0.6994,
         0.6903,
         # BoW with extended
-        0.63,
+        0.62,
         # Career Heuristics
         0.559,
     ],
     "Department Recall": [
         # BoW
-        0.47,
         None,
         0.48,
         # XLM-R
+        None,
         None,
         None,
         # Embeddings
@@ -138,7 +142,7 @@ results = pd.DataFrame({
         0.5836,
         0.5709,
         # BoW with extended
-        0.50,
+        0.51,
         # Career Heuristics
         0.289,
     ],
@@ -267,7 +271,7 @@ with st.expander("XLM-R (Transformer Fine-tuning)"):
     st.markdown("""
     - **Model:** `xlm-roberta-base` transformer
     - **Training:** Fine-tuned on seniority-v2 data (90/10 split, 3 epochs)
-    - **Variants:** With/without thresholding to "Professional"
+    - **Variants:** With/without thresholding to "Professional", per-class thresholds
     """)
 
 with st.expander("Embeddings"):
@@ -298,3 +302,111 @@ with st.expander("Career Heuristics"):
     - **Heuristics:** Department consistency, seniority trajectory, organization context, career length, position count
     - **Result:** Minimal improvement (+1% dept, +0.2% seniority) — career paths are too messy for rigid rules
     """)
+
+st.divider()
+
+# Live Prediction Section
+st.header("Try the Model(experimental+only carreer heuristics)")
+
+st.markdown("Enter a job title to see how the model classifies it.")
+
+# Load the embedding model
+content_dir = Path("content")
+model_path = content_dir / "extended_pipeline_model.joblib"
+
+if model_path.exists():
+    @st.cache_resource
+    def load_prediction_model():
+        model_data = joblib.load(model_path)
+        # Load encoder
+        try:
+            from sentence_transformers import SentenceTransformer
+            encoder = SentenceTransformer(model_data['encoder_name'])
+            return model_data, encoder
+        except ImportError:
+            return model_data, None
+
+    model_data, encoder = load_prediction_model()
+
+    if encoder is None:
+        st.error("sentence-transformers not installed. Run: `pip install sentence-transformers`")
+    else:
+        dept_clf = model_data['dept_classifier']
+        sen_clf = model_data['sen_classifier']
+
+        # Input
+        test_input = st.text_input("Job Title:", "Senior Software Engineer")
+
+        if st.button("Classify", type="primary"):
+            # Encode and predict
+            embedding = encoder.encode([test_input])
+
+            dept_proba = dept_clf.predict_proba(embedding)[0]
+            sen_proba = sen_clf.predict_proba(embedding)[0]
+
+            dept_pred = dept_clf.classes_[np.argmax(dept_proba)]
+            sen_pred = sen_clf.classes_[np.argmax(sen_proba)]
+
+            dept_conf = np.max(dept_proba)
+            sen_conf = np.max(sen_proba)
+
+            # Results
+            col1, col2 = st.columns(2)
+
+            with col1:
+                st.metric("Department", dept_pred, f"{dept_conf:.0%} confidence")
+
+            with col2:
+                st.metric("Seniority", sen_pred, f"{sen_conf:.0%} confidence")
+
+            # Detailed probabilities
+            st.subheader("All Probabilities")
+
+            tab1, tab2 = st.tabs(["Department", "Seniority"])
+
+            with tab1:
+                dept_df = pd.DataFrame({
+                    'Department': dept_clf.classes_,
+                    'Probability': dept_proba
+                }).sort_values('Probability', ascending=True)
+
+                fig = go.Figure(go.Bar(
+                    x=dept_df['Probability'],
+                    y=dept_df['Department'],
+                    orientation='h',
+                    marker_color=['#2ecc71' if p == dept_pred else '#3498db' for p in dept_df['Department']]
+                ))
+                fig.update_layout(
+                    title="Department Probabilities",
+                    xaxis_title="Probability",
+                    xaxis_tickformat=".0%",
+                    height=400
+                )
+                st.plotly_chart(fig, use_container_width=True)
+
+            with tab2:
+                sen_df = pd.DataFrame({
+                    'Seniority': sen_clf.classes_,
+                    'Probability': sen_proba
+                }).sort_values('Probability', ascending=True)
+
+                fig = go.Figure(go.Bar(
+                    x=sen_df['Probability'],
+                    y=sen_df['Seniority'],
+                    orientation='h',
+                    marker_color=['#2ecc71' if p == sen_pred else '#e74c3c' for p in sen_df['Seniority']]
+                ))
+                fig.update_layout(
+                    title="Seniority Probabilities",
+                    xaxis_title="Probability",
+                    xaxis_tickformat=".0%",
+                    height=300
+                )
+                st.plotly_chart(fig, use_container_width=True)
+
+            # Confidence warning
+            if dept_conf < 0.4 or sen_conf < 0.4:
+                st.warning("Low confidence.")
+
+else:
+    st.warning("no model")

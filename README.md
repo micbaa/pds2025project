@@ -128,7 +128,7 @@ Run the Streamlit dashboard to interactively compare all models:
 
 ```bash
 pip install -r requirements.txt
-pip install streamlit plotly
+pip install streamlit plotly sentence-transformers
 streamlit run dashboard.py
 ```
 
@@ -137,6 +137,7 @@ Features:
 - Compare accuracy and recall across models
 - View detailed results grouped by approach
 - See which notebook each result comes from
+- **Try the Model**: Enter any job title and get department/seniority predictions with confidence scores
 
 ## Data
 
