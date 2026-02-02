@@ -145,7 +145,7 @@ Features:
 - Compare accuracy and recall across models
 - View detailed results grouped by approach
 - See which notebook each result comes from
-- **Try the Model**: Enter any job title and get department/seniority predictions with confidence scores
+- **Try the Model**: Enter any job title and get department/seniority predictions with confidence scores (uses `extended_pipeline_model.joblib` from `model_pipeline_extended.ipynb`)
 
 ## Data
 
