@@ -25,20 +25,21 @@ Given a job title like "Senior Softwareentwickler" or "Geschäftsführer", predi
 ## Project Structure
 
 ```
-├── Bag_of_Words_Models.ipynb          # TF-IDF + Logistic Regression experiments
-├── finetuned_xlmr_models.ipynb        # XLM-RoBERTa transformer fine-tuning
-├── Data_Insights (1).ipynb            # Self-training with pseudo-labels (best results)
-├── Hai_PDSfinalproject_data.ipynb     # Rule-based + Embeddings experiments
-├── model_pipeline_extended.ipynb      # Career history heuristics
+├── self_training_models.ipynb      # Self-training with pseudo-labels (best results)
+├── Bag_of_Words_Models.ipynb       # TF-IDF + Logistic Regression experiments
+├── finetuned_xlmr_models.ipynb     # XLM-RoBERTa transformer fine-tuning
+├── model_pipeline_extended.ipynb   # Career history heuristics
+├── data_insights.ipynb             # Data visualization and analysis
+├── Hai_PDSfinalproject_data.ipynb  # Rule-based baseline experiments
 │
-├── content/                           # Data files
-│   ├── department-v2.csv          # Department training labels (~10,000)
-│   ├── seniority-v2.csv           # Seniority training labels (~9,400)
-│   ├── linkedin-cvs-annotated.json     # Evaluation data (2,638 positions)
-│   └── linkedin-cvs-not-annotated.json # Unlabeled LinkedIn data (1,886 positions)
+├── content/                        # Data files
+│   ├── department-v2.csv           # Department training labels (~10,000)
+│   ├── seniority-v2.csv            # Seniority training labels (~9,400)
+│   ├── linkedin-cvs-annotated.json # Evaluation data (2,638 positions)
+│   └── linkedin-cvs-not-annotated.json  # Unlabeled LinkedIn data (1,886 positions)
 │
-├── dashboard.py                   # Streamlit dashboard for model comparison
-├── requirements.txt               # Python dependencies
+├── dashboard.py                    # Streamlit dashboard for model comparison
+├── requirements.txt                # Python dependencies
 └── README.md
 ```
 
@@ -68,7 +69,7 @@ Given a job title like "Senior Softwareentwickler" or "Geschäftsführer", predi
 - Results: 59.6% dept accuracy (with threshold), 54.0% seniority accuracy
 
 ### 4. Self-Training (Best Results)
-**Notebook:** `Data_Insights (1).ipynb`
+**Notebook:** `self_training_models.ipynb`
 
 The key insight: training data (v2) doesn't represent LinkedIn vocabulary. Self-training bridges this gap.
 
@@ -137,6 +138,7 @@ Features:
 - Compare accuracy and recall across models
 - View detailed results grouped by approach
 - See which notebook each result comes from
+- **Try the Model**: Enter any job title and get department/seniority predictions with confidence scores
 
 ## Data
 
