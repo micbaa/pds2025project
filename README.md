@@ -32,11 +32,18 @@ Given a job title like "Senior Softwareentwickler" or "Geschäftsführer", predi
 ├── data_insights.ipynb             # Data visualization and analysis
 ├── Hai_PDSfinalproject_data.ipynb  # Rule-based baseline experiments
 │
-├── content/                        # Data files
+├── content/                        # Data and model files
 │   ├── department-v2.csv           # Department training labels (~10,000)
 │   ├── seniority-v2.csv            # Seniority training labels (~9,400)
 │   ├── linkedin-cvs-annotated.json # Evaluation data (2,638 positions)
-│   └── linkedin-cvs-not-annotated.json  # Unlabeled LinkedIn data (1,886 positions)
+│   ├── linkedin-cvs-not-annotated.json  # Unlabeled LinkedIn data (1,886 positions)
+│   ├── extended_pipeline_model.joblib   # Trained model (used by dashboard)
+│   ├── relabeled_classifier.joblib      # Trained classifier
+│   ├── df_t_notannotated_pred_*.csv     # Pseudo-labels from different models
+│   ├── linkedin-cvs-annotated-relabeled.csv   # Relabeled evaluation data
+│   ├── linkedin-cvs-predictions-relabeled.csv # Predictions with relabeling
+│   ├── predictions_extended.csv    # Extended pipeline predictions
+│   └── df_training_rb.csv          # Rule-based training data
 │
 ├── dashboard.py                    # Streamlit dashboard for model comparison
 ├── requirements.txt                # Python dependencies
