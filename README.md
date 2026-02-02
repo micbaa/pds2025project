@@ -29,11 +29,9 @@ Given a job title like "Senior Softwareentwickler" or "Geschäftsführer", predi
 ├── finetuned_xlmr_models.ipynb        # XLM-RoBERTa transformer fine-tuning
 ├── Data_Insights (1).ipynb            # Self-training with pseudo-labels (best results)
 ├── Hai_PDSfinalproject_data.ipynb     # Rule-based + Embeddings experiments
-├── model_pipeline_extended.ipynb # Career history heuristics
+├── model_pipeline_extended.ipynb      # Career history heuristics
 │
-├── Old Models/                    # Previous notebook versions
-│
-├── content/                       # Data files
+├── content/                           # Data files
 │   ├── department-v2.csv          # Department training labels (~10,000)
 │   ├── seniority-v2.csv           # Seniority training labels (~9,400)
 │   ├── linkedin-cvs-annotated.json     # Evaluation data (2,638 positions)
