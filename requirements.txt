@@ -9,3 +9,5 @@ torch
 sentence-transformers
 lets-plot
 scipy
+streamlit
+plotly

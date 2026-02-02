@@ -136,7 +136,6 @@ Run the Streamlit dashboard to interactively compare all models:
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
-pip install streamlit plotly sentence-transformers
 streamlit run dashboard.py
 ```
 
