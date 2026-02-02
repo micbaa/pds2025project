@@ -306,7 +306,7 @@ with st.expander("Career Heuristics"):
 st.divider()
 
 # Live Prediction Section
-st.header("Try the Model(experimental+only carreer heuristics)")
+st.header("Try the Model (experimental, only carreer heuristics)")
 
 st.markdown("Enter a job title to see how the model classifies it.")
 
